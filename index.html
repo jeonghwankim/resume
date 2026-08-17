@@ -110,6 +110,12 @@ details[open] > .grphead::before{transform:rotate(90deg)}
 .details li:first-child{border-top:1px solid var(--border)}
 .details .yr{font-family:var(--mono);font-size:11.5px;color:var(--accent);font-weight:600;min-width:38px;padding-top:3px}
 .details .tx{flex:1;color:var(--text-2)}
+.thumbs{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.thumbs img{height:110px;width:auto;max-width:210px;object-fit:cover;border-radius:7px;
+  border:1px solid var(--border-strong);display:block;background:var(--surface-2)}
+.thumbs a:hover img{border-color:var(--accent)}
+.details a,.concur a{color:var(--accent)}
+.lk{font-size:9px;vertical-align:super;margin-left:2px;opacity:.7}
 .files{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
 .file{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--border-strong);
   background:var(--surface-2);padding:4px 10px;border-radius:20px;font-size:12.5px;
@@ -168,7 +174,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <a href="#c-rnd"><span class="ic">■</span><span class="nm">정부 R&amp;D</span><span class="ct">23</span></a>
         <a href="#c-ip"><span class="ic">■</span><span class="nm">논문·저역서</span><span class="ct">13</span></a>
         <a href="#c-patent"><span class="ic">■</span><span class="nm">지식재산권</span><span class="ct">11</span></a>
-        <a href="#c-activity"><span class="ic">■</span><span class="nm">대외활동</span><span class="ct">5</span></a>
+        <a href="#c-activity"><span class="ic">■</span><span class="nm">대외활동</span><span class="ct">6</span></a>
       </nav>
     </aside>
     <main>
@@ -188,6 +194,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
             <li><span class="yr"></span><span class="tx">EEG, ECG, EMG, PPG, BIA, GSR 등 미세 생체신호용 아날로그 프런트엔드, 센서 인터페이스 및 계측시스템</span></li>
           </ul>
           
+          
         </div>
       </article>
       <article class="entry">
@@ -199,6 +206,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           <ul class="details">
             <li><span class="yr"></span><span class="tx">HR, HRV, 비침습 혈압, 스트레스, 피로, 수면, 감정·인지 상태 분석 및 모션 노이즈 보정</span></li>
           </ul>
+          
           
         </div>
       </article>
@@ -212,6 +220,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
             <li><span class="yr"></span><span class="tx">스마트워치, 스마트링, 패치, 스마트밴드, 스마트의류·신발·가구·자동차 내장형 센서</span></li>
           </ul>
           
+          
         </div>
       </article>
       <article class="entry">
@@ -223,6 +232,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           <ul class="details">
             <li><span class="yr"></span><span class="tx">개인 맞춤형 라이프로그, 실시간 건강상태 추론, 이상패턴 조기경고, 조직 단위 건강관제</span></li>
           </ul>
+          
           
         </div>
       </article>
@@ -236,6 +246,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
             <li><span class="yr"></span><span class="tx">의료기기 제조, GMP, 임상시험 기획, 기술검증, 양산, 조달, B2B·B2G 사업화</span></li>
           </ul>
           
+          
         </div>
       </article>
       <article class="entry">
@@ -248,6 +259,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
             <li><span class="yr"></span><span class="tx">창업, 조직운영, 기업부설연구소, 정부과제 기획·총괄, 투자유치, 지식재산권, 코넥스 신규상장</span></li>
           </ul>
           
+          
         </div>
       </article>
       <article class="entry">
@@ -259,6 +271,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           <ul class="details">
             <li><span class="yr"></span><span class="tx">미국 헬스케어 기업 CTO·VP 경험, 해외 기술협력, 수출입, 유럽 사업개발</span></li>
           </ul>
+          
           
         </div>
       </article>
@@ -277,6 +290,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -288,6 +302,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           <ul class="details">
             <li><span class="yr">1997</span><span class="tx">석사학위 논문 「Wavelet 변환을 이용한 청각자극에 의해 유발되는 뇌파의 분석에 관한 연구」</span></li>
           </ul>
+          
           
         </div>
       </article>
@@ -306,6 +321,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -313,6 +329,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>식품의약품안전청</h3>
           <div class="sub">의료용구 제조관리자 승인<span class="dot">·</span>자격</div>
+          
           
           
           
@@ -326,6 +343,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -333,6 +351,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>경기테크노파크</h3>
           <div class="sub">기술창업교육·기술고도화 최고위과정<span class="dot">·</span>교육</div>
+          
           
           
           
@@ -348,6 +367,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
             <li><span class="yr">2019</span><span class="tx">과정연구: 커프리스 연속혈압 추정 알고리즘의 정확성 비교분석</span></li>
           </ul>
           
+          
         </div>
       </article>
       <article class="entry">
@@ -355,6 +375,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>중소기업개발원</h3>
           <div class="sub">해외시장개척 무역실무과정 수료<span class="dot">·</span>교육</div>
+          
           
           
           
@@ -375,6 +396,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -386,6 +408,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           <ul class="details">
             <li><span class="yr">1995</span><span class="tx">학부 실험·연구 지원</span></li>
           </ul>
+          
           
         </div>
       </article>
@@ -399,6 +422,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
             <li><span class="yr">1996</span><span class="tx">감성·생리신호 계측 및 분석</span></li>
           </ul>
           
+          
         </div>
       </article>
       <article class="entry">
@@ -410,6 +434,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           <ul class="details">
             <li><span class="yr">1997</span><span class="tx">운전자 행동·반응 및 생체신호 연구</span></li>
           </ul>
+          
           
         </div>
       </article>
@@ -423,6 +448,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
             <li><span class="yr">1997</span><span class="tx">뇌파 기반 HCI 연구</span></li>
           </ul>
           
+          
         </div>
       </article>
       <article class="entry">
@@ -434,6 +460,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           <ul class="details">
             <li><span class="yr">1999</span><span class="tx">감성·인간공학 생체신호 연구</span></li>
           </ul>
+          
           
         </div>
       </article>
@@ -447,6 +474,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
             <li><span class="yr">1999</span><span class="tx">휴먼인식용 웨어러블 센싱 디바이스 연구</span></li>
           </ul>
           
+          
         </div>
       </article>
       <article class="entry">
@@ -458,6 +486,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           <ul class="details">
             <li><span class="yr">2001</span><span class="tx">생체신호 계측기기 및 분석시스템 개발</span></li>
           </ul>
+          
           
         </div>
       </article>
@@ -471,6 +500,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
             <li><span class="yr">2003</span><span class="tx">의료·한방 진단기기, 심폐음·혈압·수면 제품 개발</span></li>
           </ul>
           
+          
         </div>
       </article>
       <article class="entry">
@@ -483,6 +513,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
             <li><span class="yr">2006</span><span class="tx">유비쿼터스 헬스케어 기술·사업 개발</span></li>
           </ul>
           
+          
         </div>
       </article>
       <article class="entry">
@@ -494,6 +525,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           <ul class="details">
             <li><span class="yr">2007</span><span class="tx">창업 및 경영 총괄</span></li>
           </ul>
+          
           
         </div>
       </article>
@@ -509,6 +541,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
             <li><span class="yr">2026</span><span class="tx">대표이사 재직 지속</span></li>
           </ul>
           
+          
         </div>
       </article>
       <article class="entry">
@@ -520,6 +553,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           <ul class="details">
             <li><span class="yr">2009</span><span class="tx">미국 헬스케어 사업 및 해외 기술협력</span></li>
           </ul>
+          
           
         </div>
       </article>
@@ -539,6 +573,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           <ul class="details">
             <li><span class="yr">2008</span><span class="tx">의공학 교육</span></li>
           </ul>
+          
           
         </div>
       </article>
@@ -571,6 +606,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
             <li><span class="yr">2020</span><span class="tx">이노비즈·벤처기업 갱신</span></li>
           </ul>
           
+          
         </div>
       </article>
       <article class="entry">
@@ -585,6 +621,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
             <li><span class="yr">2010</span><span class="tx">기업부설연구소·벤처기업·이노비즈·의료기기 제조업·GMP·우수기업연구소 인증 체계 구축</span></li>
             <li><span class="yr">2017</span><span class="tx">코넥스 신규상장 과정에서 지정자문인, 이사회·주주총회, 공시, 내부통제, 자본정책 및 투자자 대응 총괄</span></li>
           </ul>
+          
           
         </div>
       </article>
@@ -603,6 +640,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -610,6 +648,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>체지방 센서·혈압 추정 알고리즘 임상시험</h3>
           <div class="sub">기관: 서울성모병원</div>
+          
           
           
           
@@ -626,6 +665,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
             <li><span class="yr">2018</span><span class="tx">Red Dot Design Award 수상, Good Design 선정</span></li>
           </ul>
           
+          
         </div>
       </article>
       <article class="entry">
@@ -633,6 +673,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>맞춤형 라이프로그·스트레스 건강케어 시스템</h3>
           <div class="sub">고객: 경찰청</div>
+          
           
           
           
@@ -657,6 +698,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -664,6 +706,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>동계 트랙 스포츠용 웨어러블 실시간 코칭 시스템</h3>
           <div class="sub">대표이사 총괄<span class="dot">·</span>문화체육관광부</div>
+          
           
           
           
@@ -677,6 +720,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -684,6 +728,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>생체정보 기반 지능형 범죄예방 관제 플랫폼</h3>
           <div class="sub">대표이사 총괄<span class="dot">·</span>산업통상자원부</div>
+          
           
           
           
@@ -697,6 +742,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -704,6 +750,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>IoT 기반 일체형 전자감독장치 검증</h3>
           <div class="sub">대표이사 총괄<span class="dot">·</span>과학기술정보통신부</div>
+          
           
           
           
@@ -717,6 +764,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -727,6 +775,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -734,6 +783,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>웨어러블 기반 교정보호관찰용 스마트 전자감독 기술·장치</h3>
           <div class="sub">대표이사 총괄<span class="dot">·</span>산업통상자원부 (ATC+)</div>
+          
           
           
           
@@ -753,6 +803,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
             <li><span class="yr">2026</span><span class="tx">경찰·소방·군 등 고강도 직군으로 확장 가능한 웨어러블 건강관리 플랫폼</span></li>
           </ul>
           
+          
         </div>
       </article>
       </details>
@@ -768,6 +819,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -775,6 +827,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>AI 기반 u-Health 센서 및 계측 기술 개발</h3>
           <div class="sub">연구책임자<span class="dot">·</span>지식경제부</div>
+          
           
           
           
@@ -788,6 +841,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -795,6 +849,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>생체역학적 분석을 통한 이동형 운동장애 진단기기 개발</h3>
           <div class="sub">연구책임자<span class="dot">·</span>보건복지부</div>
+          
           
           
           
@@ -808,6 +863,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -815,6 +871,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>생체신호를 이용한 IT 기반 재활의료기기 기술</h3>
           <div class="sub">연구책임자<span class="dot">·</span>지식경제부 · 미래창조과학부</div>
+          
           
           
           
@@ -828,6 +885,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -835,6 +893,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>스마트환경 질환맞춤형 서비스를 위한 2uV급 두발잡음극복형 BMI SoC 및 SW 플랫폼 개발</h3>
           <div class="sub">연구책임자<span class="dot">·</span>산업통상자원부</div>
+          
           
           
           
@@ -848,6 +907,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -855,6 +915,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>PHR 기반 당뇨병 중심 아시아·유럽향 만성질환 관리 서비스 개발</h3>
           <div class="sub">연구책임자<span class="dot">·</span>미래창조과학부</div>
+          
           
           
           
@@ -868,6 +929,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -878,6 +940,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -885,6 +948,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>임산부 건강관리를 위한 패치형 스트레스 분석 디바이스 개발·상용화</h3>
           <div class="sub">연구책임자<span class="dot">·</span>과학기술정보통신부</div>
+          
           
           
           
@@ -906,6 +970,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -913,6 +978,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>Evaluation of Emotional changes on Wavelet transform of EEG signals evoked by auditory stimulation</h3>
           <div class="sub">논문·학술발표<span class="dot">·</span>’97 대한음향학회 춘계논문집</div>
+          
           
           
           
@@ -926,6 +992,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -933,6 +1000,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>Development of a Noninvasive/Continuous Blood Pressure Measuring System using Piezoelectric Sensor</h3>
           <div class="sub">논문·학술발표<span class="dot">·</span>대한전기학회 46-3-33, pp.440~444</div>
+          
           
           
           
@@ -946,6 +1014,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -953,6 +1022,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>마취에 의한 의식수준의 변화와 내인성 유발전위간의 상관성 분석에 관한 연구</h3>
           <div class="sub">논문·학술발표<span class="dot">·</span>대한의용생체공학회지 Vol.17 No.2</div>
+          
           
           
           
@@ -966,6 +1036,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -973,6 +1044,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>u-헬스케어 시스템 구현을 위한 생체신호 측정 단말기 구현</h3>
           <div class="sub">논문·학술발표<span class="dot">·</span>정보 및 제어 학술대회</div>
+          
           
           
           
@@ -986,6 +1058,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -993,6 +1066,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>Diazepam 투여 시 진정 정도에 따른 Latency Auditory Evoked Potentials의 P300의 변화</h3>
           <div class="sub">논문·학술발표<span class="dot">·</span>’97 대한마취과학회 제33권 2호, pp.248</div>
+          
           
           
           
@@ -1006,6 +1080,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -1016,6 +1091,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -1023,6 +1099,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>Time Series Analysis on the Blood Flow in the Peripheral Blood Vessel of Rabbit in Proportion to the Glucose Variation</h3>
           <div class="sub">논문·학술발표<span class="dot">·</span>18th Annual International Conference IEEE EMBS · SCI급</div>
+          
           
           
           
@@ -1043,6 +1120,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -1050,6 +1128,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>의자를 이용한 생체정보 획득장치</h3>
           <div class="sub">특허 출원<span class="dot">·</span>KR 10-2012-0060809</div>
+          
           
           
           
@@ -1063,6 +1142,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -1070,6 +1150,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>룩업테이블을 이용한 RRI 획득방법</h3>
           <div class="sub">특허 출원<span class="dot">·</span>KR 10-2012-0016810</div>
+          
           
           
           
@@ -1083,6 +1164,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -1090,6 +1172,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>양방향 통신 가능한 음파통신시스템</h3>
           <div class="sub">특허 출원<span class="dot">·</span>KR 10-2011-0126521</div>
+          
           
           
           
@@ -1103,6 +1186,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -1110,6 +1194,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>비침습적 연속 혈압·동맥탄성도 측정장치</h3>
           <div class="sub">특허 등록<span class="dot">·</span>KR 10-0877212</div>
+          
           
           
           
@@ -1123,6 +1208,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -1130,6 +1216,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3>비침습적 연속 혈압·동맥탄성도 측정장치</h3>
           <div class="sub">특허 등록<span class="dot">·</span>KR 10-0855042</div>
+          
           
           
           
@@ -1143,20 +1230,26 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       </section>
       <section class="cat" id="c-activity">
         <div class="cat-head">
           <span class="ic">■</span>
-          <div><h2>대외활동</h2><div class="d">학회 활동, 평가·기획 위원, 수상 · 5건</div></div>
+          <div><h2>대외활동</h2><div class="d">학회 · 평가/기획 · 전시 활동 · 6건</div></div>
         </div>
+        
+      <details class="grp" open>
+        <summary class="grphead"><span class="gnm">학회</span>
+          <span class="gct">5</span></summary>
         
       <article class="entry">
         <div class="period">1995-05 ~ 2010-06</div>
         <div class="body">
           <h3><a class="tlink" href="https://www.kosombe.or.kr" target="_blank" rel="noopener">대한의용생체공학회<span class="lk">↗</span></a></h3>
           <div class="sub">회원<span class="dot">·</span>학회</div>
+          
           
           
           
@@ -1170,6 +1263,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -1177,6 +1271,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <div class="body">
           <h3><a class="tlink" href="https://esk.or.kr" target="_blank" rel="noopener">대한인간공학회<span class="lk">↗</span></a></h3>
           <div class="sub">회원<span class="dot">·</span>학회</div>
+          
           
           
           
@@ -1190,6 +1285,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
       <article class="entry">
@@ -1200,8 +1296,26 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
           
           
+          
         </div>
       </article>
+      </details>
+      <details class="grp" open>
+        <summary class="grphead"><span class="gnm">전시</span>
+          <span class="gct">1</span></summary>
+        
+      <article class="entry">
+        <div class="period"></div>
+        <div class="body">
+          <h3>전시 1</h3>
+          <div class="sub">참가</div>
+          
+          
+          
+          
+        </div>
+      </article>
+      </details>
       </section>
       <footer>
         <span>© 2026 김정환 · jkim@lstgrp.com</span>
