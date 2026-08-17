@@ -71,6 +71,8 @@ a{color:var(--accent)}
 .nav .nm{flex:1}
 .nav .ct{color:var(--text-3);font-size:11.5px}
 
+.cat.subcat{border-left:3px solid var(--accent)}
+.nav a.sub .nm{font-size:13px}
 .cat{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
   box-shadow:var(--shadow);margin-bottom:20px;overflow:hidden;scroll-margin-top:78px}
 .cat-head{display:flex;align-items:flex-start;gap:12px;padding:16px 22px;
@@ -110,7 +112,7 @@ details[open] > .grphead::before{transform:rotate(90deg)}
 .details{list-style:none;margin-top:9px}
 .details li{display:flex;gap:11px;padding:5px 0;border-top:1px dashed var(--border);font-size:13.5px}
 .details li:first-child{border-top:1px solid var(--border)}
-.details .yr{font-family:var(--mono);font-size:11.5px;color:var(--accent);font-weight:600;min-width:38px;padding-top:3px}
+.details .yr{font-family:var(--mono);font-size:11.5px;color:var(--accent);font-weight:600;min-width:74px;padding-top:3px;letter-spacing:-.02em}
 .details .tx{flex:1;color:var(--text-2)}
 .thumbs{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
 .thumbs img{height:110px;width:auto;max-width:210px;object-fit:cover;border-radius:7px;
@@ -158,7 +160,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
     <div class="meta">
       <span><span class="mi">✉</span>업무 <a href="mailto:jkim@lstgrp.com">jkim@lstgrp.com</a></span>
       <span><span class="mi">✉</span>개인 <a href="mailto:jeonghwan.kim@me.com">jeonghwan.kim@me.com</a></span>
-      <span>최종 갱신 2026-08-17 14:03:47</span>
+      <span>최종 갱신 2026-08-17 14:20:58</span>
     </div>
   </header>
 
@@ -172,8 +174,8 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <a href="#c-career"><span class="ic">■</span><span class="nm">경력</span><span class="ct">13</span></a>
         <a href="#c-lecture"><span class="ic">■</span><span class="nm">강의·특강</span><span class="ct">1</span></a>
         <a href="#c-company"><span class="ic">■</span><span class="nm">회사 이력 (LST)</span><span class="ct">2</span></a>
-        <a href="#c-biz"><span class="ic">■</span><span class="nm">제품·사업화</span><span class="ct">4</span></a>
-        <a href="#c-rnd"><span class="ic">■</span><span class="nm">정부 R&amp;D</span><span class="ct">23</span></a>
+        <a href="#c-biz" class="sub" style="padding-left:26px"><span class="ic">■</span><span class="nm">제품·사업화</span><span class="ct">4</span></a>
+        <a href="#c-rnd" class="sub" style="padding-left:26px"><span class="ic">■</span><span class="nm">정부 R&amp;D</span><span class="ct">23</span></a>
         <a href="#c-ip"><span class="ic">■</span><span class="nm">논문·저역서</span><span class="ct">13</span></a>
         <a href="#c-patent"><span class="ic">■</span><span class="nm">지식재산권</span><span class="ct">11</span></a>
         <a href="#c-activity"><span class="ic">■</span><span class="nm">대외활동</span><span class="ct">6</span></a>
@@ -628,7 +630,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         </div>
       </article>
       </section>
-      <section class="cat" id="c-biz">
+      <section class="cat subcat" id="c-biz" style="margin-left:24px">
         <div class="cat-head">
           <span class="ic">■</span>
           <div><h2>제품·사업화</h2><div class="d">제품 개발, 고객·수요처 및 사업화 실적 · 4건</div></div>
@@ -682,7 +684,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         </div>
       </article>
       </section>
-      <section class="cat" id="c-rnd">
+      <section class="cat subcat" id="c-rnd" style="margin-left:24px">
         <div class="cat-head">
           <span class="ic">■</span>
           <div><h2>정부 R&amp;D</h2><div class="d">국가 연구개발과제 수행 이력 · 23건</div></div>
@@ -1321,7 +1323,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
       </section>
       <footer>
         <span>© 2026 김정환 · jkim@lstgrp.com</span>
-        <span>최종 갱신 2026-08-17 14:03:47 ·
+        <span>최종 갱신 2026-08-17 14:20:58 ·
           <a href="https://github.com/jeonghwankim/resume" target="_blank" rel="noopener"
              title="관리자용 — GitHub 로그인이 필요합니다">수정</a></span>
       </footer>
