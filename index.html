@@ -59,6 +59,7 @@ a{color:var(--accent)}
 .profile .meta .mi{font-size:.92em;line-height:1;margin-right:3px}
 
 .grid{display:grid;grid-template-columns:230px 1fr;gap:24px;align-items:start}
+.grid>*{min-width:0}
 @media (max-width:880px){.grid{grid-template-columns:1fr}}
 .side{position:sticky;top:74px}
 @media (max-width:880px){.side{position:static}}
@@ -152,6 +153,34 @@ details[open] > .grphead::before{transform:rotate(90deg)}
 .tail .tt{font-size:12.5px;color:var(--text-2);margin-top:4px;line-height:1.6}
 .tail .tr{display:flex;gap:14px;align-items:center;flex-wrap:wrap;font-size:12.5px}
 @media print{ .tail{break-inside:avoid} }
+
+/* ── 폰 화면 ── */
+@media (max-width:700px){
+  .wrap{padding:0 14px 50px}
+  .btn{min-height:40px;display:inline-flex;align-items:center;padding:8px 14px}  /* 터치 목표 확보 */
+  .topbar-in{gap:6px}
+  .profile{padding:22px 18px}
+  .profile h1{font-size:26px}
+  .profile h1 span{display:block;margin:4px 0 0;font-size:13px}
+  .profile .meta{justify-content:flex-start;gap:10px;font-size:12px}
+  .cat-head,.entry{padding-left:16px;padding-right:16px}
+  .grphead{padding-left:16px;padding-right:16px;min-height:42px}
+
+  /* 목차를 가로 스크롤 칩으로 — 세로로 길게 늘어지지 않게 */
+  /* 그리드 칸이 내용 폭만큼 늘어나지 않도록 — 가로 스크롤이 nav 안에서만 일어나게 */
+  .side{margin-bottom:14px;min-width:0;max-width:100%}
+  .nav{min-width:0;max-width:100%}
+  .side h2{margin-left:2px}
+  .nav{flex-direction:row;overflow-x:auto;gap:6px;padding-bottom:6px;
+       -webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .nav::-webkit-scrollbar{display:none}
+  .nav a{flex:0 0 auto;border:1px solid var(--border);background:var(--surface);
+         border-radius:20px;padding:7px 12px!important;min-height:38px}
+  .nav a .ct{margin-left:5px}
+  .cat.subcat{margin-left:0!important;border-left-width:4px}
+  .details li{gap:8px}
+  .details .yr{min-width:64px}
+}
 
 @media print{
   .topbar,.side{display:none!important}
@@ -1228,7 +1257,7 @@ details[open] > .grphead::before{transform:rotate(90deg)}
           <div class="sub">언론 보도<span class="dot">·</span>산학·기업 협약</div>
           
           <ul class="details">
-            <li><span class="yr">2016-04</span><span class="tx">이뉴스투데이 · 고신대복음병원, ㈜아이쿱·㈜LST와 다자간 MOU 체결</span></li>
+            <li><span class="yr">2016-04</span><span class="tx">이뉴스투데이 · 고신대복음병원과 다자간 업무제휴 MOU 체결</span></li>
             <li><span class="yr">2016-07</span><span class="tx">일요신문 · 고신의대 융합의학·운동과학 연구소 개소</span></li>
             <li><span class="yr">2020-05</span><span class="tx">한국경제 · 앤씰 — cECG·맥박 센서 기반 수면의 질 측정 협력</span></li>
             <li><span class="yr">2020-07</span><span class="tx">MEDI:GATE NEWS · 세원인텔리전스 창립 — 스트레스패치 협력</span></li>
