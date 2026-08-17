@@ -77,6 +77,22 @@ a{color:var(--accent)}
 .cat-head h2{font-size:17px;letter-spacing:-.02em}
 .cat-head .d{font-size:12.5px;color:var(--text-3);margin-top:2px}
 
+.grp{border-bottom:1px solid var(--border)}
+.grp:last-child{border-bottom:none}
+.grphead{
+  display:flex;align-items:center;gap:9px;cursor:pointer;list-style:none;
+  background:var(--surface-2);border-bottom:1px solid var(--border);
+  padding:9px 22px;font-size:13px;font-weight:650;color:var(--text-2);
+}
+.grphead::-webkit-details-marker{display:none}
+.grphead::before{content:"▸";font-size:10px;color:var(--text-3);transition:transform .15s}
+details[open] > .grphead::before{transform:rotate(90deg)}
+.grphead:hover{background:var(--accent-soft);color:var(--accent)}
+.grphead .gnm{flex:1}
+.grphead .gct{color:var(--text-3);font-size:11.5px;font-weight:400}
+.grp .entry:last-child{border-bottom:none}
+@media print{ .grp[open] > .grphead::before{content:""} }
+
 .entry{display:grid;grid-template-columns:150px 1fr;gap:16px;padding:15px 22px;border-bottom:1px solid var(--border)}
 .entry:last-child{border-bottom:none}
 @media (max-width:620px){.entry{grid-template-columns:1fr;gap:4px}}
@@ -149,8 +165,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <a href="#c-lecture"><span class="ic">■</span><span class="nm">강의·특강</span><span class="ct">1</span></a>
         <a href="#c-company"><span class="ic">■</span><span class="nm">회사 이력 (LST)</span><span class="ct">2</span></a>
         <a href="#c-biz"><span class="ic">■</span><span class="nm">제품·사업화</span><span class="ct">4</span></a>
-        <a href="#c-rnd-pi"><span class="ic">■</span><span class="nm">정부 R&amp;D — 연구책임</span><span class="ct">13</span></a>
-        <a href="#c-rnd-ceo"><span class="ic">■</span><span class="nm">정부 R&amp;D — 총괄</span><span class="ct">10</span></a>
+        <a href="#c-rnd"><span class="ic">■</span><span class="nm">정부 R&amp;D</span><span class="ct">23</span></a>
         <a href="#c-ip"><span class="ic">■</span><span class="nm">논문·저역서</span><span class="ct">13</span></a>
         <a href="#c-patent"><span class="ic">■</span><span class="nm">지식재산권</span><span class="ct">11</span></a>
         <a href="#c-activity"><span class="ic">■</span><span class="nm">대외활동</span><span class="ct">5</span></a>
@@ -624,11 +639,126 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         </div>
       </article>
       </section>
-      <section class="cat" id="c-rnd-pi">
+      <section class="cat" id="c-rnd">
         <div class="cat-head">
           <span class="ic">■</span>
-          <div><h2>정부 R&amp;D — 연구책임</h2><div class="d">연구책임자 김정환 과제 (고유 13건) · 13건</div></div>
+          <div><h2>정부 R&amp;D</h2><div class="d">국가 연구개발과제 수행 이력 · 23건</div></div>
         </div>
+        
+      <details class="grp" open>
+        <summary class="grphead"><span class="gnm">총괄</span>
+          <span class="gct">10</span></summary>
+        
+      <article class="entry">
+        <div class="period">2013 ~ 2015</div>
+        <div class="body">
+          <h3>Tremor 증상 정량진단용 Movement Polygraphy 임상 유효성 평가</h3>
+          <div class="sub">대표이사 총괄<span class="dot">·</span>보건복지부</div>
+          
+          
+          
+        </div>
+      </article>
+      <article class="entry">
+        <div class="period">2014 ~ 2017</div>
+        <div class="body">
+          <h3>동계 트랙 스포츠용 웨어러블 실시간 코칭 시스템</h3>
+          <div class="sub">대표이사 총괄<span class="dot">·</span>문화체육관광부</div>
+          
+          
+          
+        </div>
+      </article>
+      <article class="entry">
+        <div class="period">2015 ~ 2017</div>
+        <div class="body">
+          <h3>생체신호 측정용 무선 센서노드 기반 수면상태 모니터링</h3>
+          <div class="sub">대표이사 총괄<span class="dot">·</span>중소기업청</div>
+          
+          
+          
+        </div>
+      </article>
+      <article class="entry">
+        <div class="period">2015 ~ 2017</div>
+        <div class="body">
+          <h3>생체정보 기반 지능형 범죄예방 관제 플랫폼</h3>
+          <div class="sub">대표이사 총괄<span class="dot">·</span>산업통상자원부</div>
+          
+          
+          
+        </div>
+      </article>
+      <article class="entry">
+        <div class="period">2017 ~ 2021</div>
+        <div class="body">
+          <h3>자율주행차 운전자 및 상황 판단 HVI 기술</h3>
+          <div class="sub">대표이사 총괄<span class="dot">·</span>산업통상자원부</div>
+          
+          
+          
+        </div>
+      </article>
+      <article class="entry">
+        <div class="period">2018</div>
+        <div class="body">
+          <h3>IoT 기반 일체형 전자감독장치 검증</h3>
+          <div class="sub">대표이사 총괄<span class="dot">·</span>과학기술정보통신부</div>
+          
+          
+          
+        </div>
+      </article>
+      <article class="entry">
+        <div class="period">2018 ~ 2020</div>
+        <div class="body">
+          <h3>야간외출제한 및 재택구금용 양방향 전자장치</h3>
+          <div class="sub">대표이사 총괄<span class="dot">·</span>중소벤처기업부</div>
+          
+          
+          
+        </div>
+      </article>
+      <article class="entry">
+        <div class="period">2019 ~ 2020</div>
+        <div class="body">
+          <h3>스마트밴드 활용 수용관리 시스템</h3>
+          <div class="sub">대표이사 총괄<span class="dot">·</span>산업통상자원부</div>
+          
+          
+          
+        </div>
+      </article>
+      <article class="entry">
+        <div class="period">2020 ~ 2023</div>
+        <div class="body">
+          <h3>웨어러블 기반 교정보호관찰용 스마트 전자감독 기술·장치</h3>
+          <div class="sub">대표이사 총괄<span class="dot">·</span>산업통상자원부 (ATC+)</div>
+          
+          
+          
+        </div>
+      </article>
+      <article class="entry">
+        <div class="period">2022 ~ 2026</div>
+        <div class="body">
+          <h3>AI 빅데이터 기반 경찰 맞춤형 라이프로그·스트레스 건강케어 시스템</h3>
+          <div class="sub">경찰청</div>
+          
+          <ul class="details">
+            <li><span class="yr">2022</span><span class="tx">HRV 기반 스트레스·피로 예측과 개인 맞춤형 회복 피드백</span></li>
+            <li><span class="yr">2023</span><span class="tx">PPG·IMU 융합 모션 노이즈 제거, 적응형 보정 및 배터리 절감형 샘플링</span></li>
+            <li><span class="yr">2024</span><span class="tx">심박·혈압·SpO₂ 이상패턴 조기경고와 조직 단위 건강관제</span></li>
+            <li><span class="yr">2025</span><span class="tx">경찰관 업무모드에 특화된 UI·UX 및 실증 기반 AI 모델 고도화</span></li>
+            <li><span class="yr">2026</span><span class="tx">경찰·소방·군 등 고강도 직군으로 확장 가능한 웨어러블 건강관리 플랫폼</span></li>
+          </ul>
+          
+        </div>
+      </article>
+      </details>
+      <details class="grp" open>
+        <summary class="grphead"><span class="gnm">연구책임</span>
+          <span class="gct">13</span></summary>
         
       <article class="entry">
         <div class="period">2008 ~ 2009</div>
@@ -760,119 +890,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
         </div>
       </article>
-      </section>
-      <section class="cat" id="c-rnd-ceo">
-        <div class="cat-head">
-          <span class="ic">■</span>
-          <div><h2>정부 R&amp;D — 총괄</h2><div class="d">회사 참여·대표이사 총괄 과제 (10건) · 10건</div></div>
-        </div>
-        
-      <article class="entry">
-        <div class="period">2013 ~ 2015</div>
-        <div class="body">
-          <h3>Tremor 증상 정량진단용 Movement Polygraphy 임상 유효성 평가</h3>
-          <div class="sub">대표이사 총괄<span class="dot">·</span>보건복지부</div>
-          
-          
-          
-        </div>
-      </article>
-      <article class="entry">
-        <div class="period">2014 ~ 2017</div>
-        <div class="body">
-          <h3>동계 트랙 스포츠용 웨어러블 실시간 코칭 시스템</h3>
-          <div class="sub">대표이사 총괄<span class="dot">·</span>문화체육관광부</div>
-          
-          
-          
-        </div>
-      </article>
-      <article class="entry">
-        <div class="period">2015 ~ 2017</div>
-        <div class="body">
-          <h3>생체신호 측정용 무선 센서노드 기반 수면상태 모니터링</h3>
-          <div class="sub">대표이사 총괄<span class="dot">·</span>중소기업청</div>
-          
-          
-          
-        </div>
-      </article>
-      <article class="entry">
-        <div class="period">2015 ~ 2017</div>
-        <div class="body">
-          <h3>생체정보 기반 지능형 범죄예방 관제 플랫폼</h3>
-          <div class="sub">대표이사 총괄<span class="dot">·</span>산업통상자원부</div>
-          
-          
-          
-        </div>
-      </article>
-      <article class="entry">
-        <div class="period">2017 ~ 2021</div>
-        <div class="body">
-          <h3>자율주행차 운전자 및 상황 판단 HVI 기술</h3>
-          <div class="sub">대표이사 총괄<span class="dot">·</span>산업통상자원부</div>
-          
-          
-          
-        </div>
-      </article>
-      <article class="entry">
-        <div class="period">2018</div>
-        <div class="body">
-          <h3>IoT 기반 일체형 전자감독장치 검증</h3>
-          <div class="sub">대표이사 총괄<span class="dot">·</span>과학기술정보통신부</div>
-          
-          
-          
-        </div>
-      </article>
-      <article class="entry">
-        <div class="period">2018 ~ 2020</div>
-        <div class="body">
-          <h3>야간외출제한 및 재택구금용 양방향 전자장치</h3>
-          <div class="sub">대표이사 총괄<span class="dot">·</span>중소벤처기업부</div>
-          
-          
-          
-        </div>
-      </article>
-      <article class="entry">
-        <div class="period">2019 ~ 2020</div>
-        <div class="body">
-          <h3>스마트밴드 활용 수용관리 시스템</h3>
-          <div class="sub">대표이사 총괄<span class="dot">·</span>산업통상자원부</div>
-          
-          
-          
-        </div>
-      </article>
-      <article class="entry">
-        <div class="period">2020 ~ 2023</div>
-        <div class="body">
-          <h3>웨어러블 기반 교정보호관찰용 스마트 전자감독 기술·장치</h3>
-          <div class="sub">대표이사 총괄<span class="dot">·</span>산업통상자원부 (ATC+)</div>
-          
-          
-          
-        </div>
-      </article>
-      <article class="entry">
-        <div class="period">2022 ~ 2026</div>
-        <div class="body">
-          <h3>AI 빅데이터 기반 경찰 맞춤형 라이프로그·스트레스 건강케어 시스템</h3>
-          <div class="sub">경찰청</div>
-          
-          <ul class="details">
-            <li><span class="yr">2022</span><span class="tx">HRV 기반 스트레스·피로 예측과 개인 맞춤형 회복 피드백</span></li>
-            <li><span class="yr">2023</span><span class="tx">PPG·IMU 융합 모션 노이즈 제거, 적응형 보정 및 배터리 절감형 샘플링</span></li>
-            <li><span class="yr">2024</span><span class="tx">심박·혈압·SpO₂ 이상패턴 조기경고와 조직 단위 건강관제</span></li>
-            <li><span class="yr">2025</span><span class="tx">경찰관 업무모드에 특화된 UI·UX 및 실증 기반 AI 모델 고도화</span></li>
-            <li><span class="yr">2026</span><span class="tx">경찰·소방·군 등 고강도 직군으로 확장 가능한 웨어러블 건강관리 플랫폼</span></li>
-          </ul>
-          
-        </div>
-      </article>
+      </details>
       </section>
       <section class="cat" id="c-ip">
         <div class="cat-head">
