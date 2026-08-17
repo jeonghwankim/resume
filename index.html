@@ -84,6 +84,9 @@ a{color:var(--accent)}
 .entry h3{font-size:15px;font-weight:650;letter-spacing:-.015em;line-height:1.45}
 .entry .sub{font-size:13px;color:var(--text-2);margin-top:2px}
 .entry .sub .dot{color:var(--text-3);margin:0 6px}
+.entry h3 .tlink{color:inherit;text-decoration:none;border-bottom:1px solid var(--border-strong)}
+.entry h3 .tlink:hover{color:var(--accent);border-bottom-color:var(--accent)}
+.entry h3 .lk{font-size:10px;color:var(--text-3);margin-left:4px;vertical-align:super}
 .concur{margin-top:5px;font-size:12.5px;color:var(--accent);background:var(--accent-soft);
   border-radius:6px;padding:4px 10px;display:inline-block}
 .details{list-style:none;margin-top:9px}
@@ -142,12 +145,13 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
         <a href="#c-skill"><span class="ic">■</span><span class="nm">핵심 전문역량</span><span class="ct">7</span></a>
         <a href="#c-edu"><span class="ic">■</span><span class="nm">학력·교육·자격</span><span class="ct">7</span></a>
         <a href="#c-career"><span class="ic">■</span><span class="nm">경력</span><span class="ct">13</span></a>
-        <a href="#c-lecture"><span class="ic">■</span><span class="nm">강의·외부특강</span><span class="ct">1</span></a>
+        <a href="#c-lecture"><span class="ic">■</span><span class="nm">강의·특강</span><span class="ct">1</span></a>
         <a href="#c-company"><span class="ic">■</span><span class="nm">회사 이력 (LST)</span><span class="ct">2</span></a>
         <a href="#c-biz"><span class="ic">■</span><span class="nm">제품·사업화</span><span class="ct">4</span></a>
         <a href="#c-rnd-pi"><span class="ic">■</span><span class="nm">정부 R&amp;D — 연구책임</span><span class="ct">13</span></a>
         <a href="#c-rnd-ceo"><span class="ic">■</span><span class="nm">정부 R&amp;D — 총괄</span><span class="ct">10</span></a>
-        <a href="#c-ip"><span class="ic">■</span><span class="nm">논문·특허·대외활동</span><span class="ct">9</span></a>
+        <a href="#c-ip"><span class="ic">■</span><span class="nm">논문·특허</span><span class="ct">7</span></a>
+        <a href="#c-activity"><span class="ic">■</span><span class="nm">대외활동</span><span class="ct">6</span></a>
       </nav>
     </aside>
     <main>
@@ -489,7 +493,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
       <section class="cat" id="c-lecture">
         <div class="cat-head">
           <span class="ic">■</span>
-          <div><h2>강의·외부특강</h2><div class="d">대학원·학부 강의 및 외부 특강 · 1건</div></div>
+          <div><h2>강의·특강</h2><div class="d">대학원·학부 강의 및 외부 특강 · 1건</div></div>
         </div>
         
       <article class="entry">
@@ -854,7 +858,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
       <section class="cat" id="c-ip">
         <div class="cat-head">
           <span class="ic">■</span>
-          <div><h2>논문·특허·대외활동</h2><div class="d">학술 발표, 지식재산권, 학회 및 평가·기획 활동 · 9건</div></div>
+          <div><h2>논문·특허</h2><div class="d">학술 논문·발표 및 지식재산권 · 7건</div></div>
         </div>
         
       <article class="entry">
@@ -927,19 +931,60 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
           
         </div>
       </article>
+      </section>
+      <section class="cat" id="c-activity">
+        <div class="cat-head">
+          <span class="ic">■</span>
+          <div><h2>대외활동</h2><div class="d">학회 활동, 평가·기획 위원, 수상 · 6건</div></div>
+        </div>
+        
       <article class="entry">
         <div class="period"></div>
         <div class="body">
-          <h3>학회 활동</h3>
-          <div class="sub">회원·활동</div>
+          <h3><a class="tlink" href="https://www.kosombe.or.kr" target="_blank" rel="noopener">대한의용생체공학회<span class="lk">↗</span></a></h3>
+          <div class="sub">회원·활동<span class="dot">·</span>학회</div>
           
-          <ul class="details">
-            <li><span class="yr"></span><span class="tx">대한의용생체공학회</span></li>
-            <li><span class="yr"></span><span class="tx">대한전기학회</span></li>
-            <li><span class="yr"></span><span class="tx">한국인간공학회</span></li>
-            <li><span class="yr"></span><span class="tx">한국감성과학회</span></li>
-            <li><span class="yr"></span><span class="tx">한국뇌학회</span></li>
-          </ul>
+          
+          
+        </div>
+      </article>
+      <article class="entry">
+        <div class="period"></div>
+        <div class="body">
+          <h3><a class="tlink" href="https://www.kiee.or.kr" target="_blank" rel="noopener">대한전기학회<span class="lk">↗</span></a></h3>
+          <div class="sub">회원·활동<span class="dot">·</span>학회</div>
+          
+          
+          
+        </div>
+      </article>
+      <article class="entry">
+        <div class="period"></div>
+        <div class="body">
+          <h3><a class="tlink" href="https://esk.or.kr" target="_blank" rel="noopener">대한인간공학회<span class="lk">↗</span></a></h3>
+          <div class="sub">회원·활동<span class="dot">·</span>학회</div>
+          
+          
+          
+        </div>
+      </article>
+      <article class="entry">
+        <div class="period"></div>
+        <div class="body">
+          <h3><a class="tlink" href="https://www.koses.or.kr" target="_blank" rel="noopener">한국감성과학회<span class="lk">↗</span></a></h3>
+          <div class="sub">회원·활동<span class="dot">·</span>학회</div>
+          
+          
+          
+        </div>
+      </article>
+      <article class="entry">
+        <div class="period"></div>
+        <div class="body">
+          <h3><a class="tlink" href="https://www.ksbns.org" target="_blank" rel="noopener">한국뇌신경과학회<span class="lk">↗</span></a></h3>
+          <div class="sub">회원·활동<span class="dot">·</span>학회</div>
+          
+          
           
         </div>
       </article>
