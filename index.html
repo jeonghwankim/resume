@@ -54,7 +54,9 @@ a{color:var(--accent)}
 .profile .summary{margin-top:18px;color:var(--text-2);font-size:14.5px;max-width:76ch}
 .profile .identity{margin-top:13px;padding:11px 15px;background:var(--accent-soft);border-radius:8px;
   font-size:14px;border-left:3px solid var(--accent)}
-.profile .meta{margin-top:18px;display:flex;gap:18px;flex-wrap:wrap;font-size:13px;color:var(--text-3)}
+.profile .meta{margin-top:18px;display:flex;gap:18px;flex-wrap:wrap;font-size:13px;color:var(--text-3);
+  justify-content:flex-end;align-items:center}
+.profile .meta .mi{font-size:.92em;line-height:1;margin-right:3px}
 
 .grid{display:grid;grid-template-columns:230px 1fr;gap:24px;align-items:start}
 @media (max-width:880px){.grid{grid-template-columns:1fr}}
@@ -154,9 +156,9 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
     <p class="summary">의용생체공학 기반의 생체신호 계측·분석 전문가이자 의료기기·웨어러블 헬스케어 기업 창업가. 연구기관과 삼성종합기술원에서 인간공학·생체신호·휴먼인터페이스 기술을 연구한 뒤 의료기기 기업의 CTO를 거쳐 ㈜엑스모코어를 창업했으며, 상호변경 후 ㈜라이프사이언스테크놀로지의 창업자·대표이사로 연구개발, 제품사업화, 정부 R&amp;D, 투자유치, 코넥스 신규상장 및 상장회사 경영을 총괄했다.</p>
     <div class="identity"><b>핵심 정체성</b> · 미세 생체전기신호를 실제 제품과 서비스로 구현하고, 기술개발–임상–인허가–양산–시장진입–자본시장까지 연결하는 기술경영인.</div>
     <div class="meta">
-      <span>✉ 업무 <a href="mailto:jkim@lstgrp.com">jkim@lstgrp.com</a></span>
-      <span>✉ 개인 <a href="mailto:jeonghwan.kim@me.com">jeonghwan.kim@me.com</a></span>
-      <span>최종 갱신 2026-08-16</span>
+      <span><span class="mi">✉</span>업무 <a href="mailto:jkim@lstgrp.com">jkim@lstgrp.com</a></span>
+      <span><span class="mi">✉</span>개인 <a href="mailto:jeonghwan.kim@me.com">jeonghwan.kim@me.com</a></span>
+      <span>최종 갱신 2026-08-17 14:03:47</span>
     </div>
   </header>
 
@@ -1319,7 +1321,7 @@ footer{margin-top:28px;padding:18px 22px;background:var(--surface);border:1px so
       </section>
       <footer>
         <span>© 2026 김정환 · jkim@lstgrp.com</span>
-        <span>최종 갱신 2026-08-16 ·
+        <span>최종 갱신 2026-08-17 14:03:47 ·
           <a href="https://github.com/jeonghwankim/resume" target="_blank" rel="noopener"
              title="관리자용 — GitHub 로그인이 필요합니다">수정</a></span>
       </footer>
