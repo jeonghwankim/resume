@@ -156,6 +156,16 @@ details[open] > .grphead::before{transform:rotate(90deg)}
 @media print{ .tail{break-inside:avoid} }
 
 /* ── 폰 화면 ── */
+
+/* 본문 서식 — 편집기에서 넣은 굵게·목록·링크·코드 표기 */
+.tx ul,.tx ol,.d ul,.d ol,.summary ul,.summary ol,.tt ul,.tt ol{margin:3px 0 3px 1.15em;padding:0}
+.tx li,.d li,.summary li,.tt li{margin:1px 0}
+.tx code,.d code,.summary code,.tt code,.concur code{
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.88em;
+  background:#f1f4f2;border:1px solid #dfe6e2;border-radius:4px;padding:1px 4px
+}
+.tx mark,.d mark,.summary mark,.tt mark{background:#fff3b0;color:inherit;border-radius:3px;padding:0 2px}
+.tx s,.d s,.summary s{opacity:.65}
 @media (max-width:700px){
   .wrap{padding:0 14px 50px}
   .btn{min-height:40px;display:inline-flex;align-items:center;padding:8px 14px}  /* 터치 목표 확보 */
@@ -244,7 +254,7 @@ details[open] > .grphead::before{transform:rotate(90deg)}
     <div class="meta">
       <span><span class="mi">✉</span>업무 <a href="mailto:jkim@lstgrp.com">jkim@lstgrp.com</a></span>
       <span><span class="mi">✉</span>개인 <a href="mailto:jeonghwan.kim@me.com">jeonghwan.kim@me.com</a></span>
-      <span>최종 갱신 2026-08-18 12:58:26</span>
+      <span>최종 갱신 2026.08.18 12:58:26</span>
     </div>
   </header>
 
@@ -1895,7 +1905,7 @@ details[open] > .grphead::before{transform:rotate(90deg)}
       </section>
       <footer class="minifoot">
         <span>© 2026 김정환 · jkim@lstgrp.com</span>
-        <span>최종 갱신 2026-08-18 12:58:26 ·
+        <span>최종 갱신 2026.08.18 12:58:26 ·
           <a href="https://github.com/jeonghwankim/resume" target="_blank" rel="noopener"
              title="관리자용 — GitHub 로그인이 필요합니다">수정</a></span>
       </footer>
