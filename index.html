@@ -54,9 +54,19 @@ a{color:var(--accent)}
 .profile .summary{margin-top:18px;color:var(--text-2);font-size:14.5px;max-width:76ch}
 .profile .identity{margin-top:13px;padding:11px 15px;background:var(--accent-soft);border-radius:8px;
   font-size:14px;border-left:3px solid var(--accent)}
-.profile .meta{margin-top:18px;display:flex;gap:18px;flex-wrap:wrap;font-size:13px;color:var(--text-3);
-  justify-content:flex-end;align-items:center}
+.profile .meta{margin-top:18px;display:flex;flex-direction:column;gap:4px;font-size:13px;
+  color:var(--text-3);align-items:flex-end}
 .profile .meta .mi{font-size:.92em;line-height:1;margin-right:3px}
+
+/* 프로필 사진 — 왼쪽 세로 사진, 오른쪽 글 */
+.profile{position:relative}
+.pf-stamp{position:absolute;top:16px;right:20px;font-size:12px;font-weight:600;color:#c0392b;white-space:nowrap}
+.pf-grid{display:grid;grid-template-columns:170px 1fr;gap:28px;align-items:start}
+.pf-photo{width:170px;aspect-ratio:3/4;border-radius:10px;overflow:hidden;
+  border:1px solid var(--border);background:var(--surface-2)}
+.pf-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.pf-grid.solo{grid-template-columns:1fr}
+.profile h1{padding-right:150px}
 
 .grid{display:grid;grid-template-columns:230px 1fr;gap:24px;align-items:start}
 .grid>*{min-width:0}
@@ -166,6 +176,17 @@ details[open] > .grphead::before{transform:rotate(90deg)}
 }
 .tx mark,.d mark,.summary mark,.tt mark{background:#fff3b0;color:inherit;border-radius:3px;padding:0 2px}
 .tx s,.d s,.summary s{opacity:.65}
+
+/* 좁은 화면 — 사진을 글 위로 올린다 */
+@media (max-width:620px){
+  .pf-grid{grid-template-columns:1fr;gap:16px}
+  .pf-photo{width:132px}
+  .pf-edit{width:132px}
+  .pf-stamp{position:static;text-align:right;margin-bottom:10px}
+  .profile h1{padding-right:0}
+  .profile .meta{align-items:flex-start}
+  .phm-now{grid-template-columns:1fr}
+}
 @media (max-width:700px){
   .wrap{padding:0 14px 50px}
   .btn{min-height:40px;display:inline-flex;align-items:center;padding:8px 14px}  /* 터치 목표 확보 */
@@ -246,6 +267,10 @@ details[open] > .grphead::before{transform:rotate(90deg)}
   </g>
 </svg>
   <header class="profile">
+    <div class="pf-stamp">최종 갱신 2026.08.18 12:58:26</div>
+    <div class="pf-grid solo">
+    
+    <div>
     <h1>김정환<span>金正煥 · Jeonghwan Kim</span></h1>
     <div class="role">㈜라이프사이언스테크놀로지 창업자·대표이사</div>
     <div class="sub">Biomedical Engineering · Digital Healthcare · Technology Entrepreneurship</div>
@@ -254,8 +279,8 @@ details[open] > .grphead::before{transform:rotate(90deg)}
     <div class="meta">
       <span><span class="mi">✉</span>업무 <a href="mailto:jkim@lstgrp.com">jkim@lstgrp.com</a></span>
       <span><span class="mi">✉</span>개인 <a href="mailto:jeonghwan.kim@me.com">jeonghwan.kim@me.com</a></span>
-      <span>최종 갱신 2026.08.18 12:58:26</span>
     </div>
+    </div></div>
   </header>
 
   <div class="grid">
