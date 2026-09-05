@@ -143,21 +143,21 @@ details[open] > .grphead::before{transform:rotate(90deg)}
 @media print{ .grp[open] > .grphead::before{content:""} }
 
 /* 2002.05.06 ~ 2002.05.09 처럼 가장 긴 표기도 한 줄에 들어가도록 칸을 잡는다 */
-.entry{display:grid;grid-template-columns:172px 1fr;gap:16px;padding:15px 22px;border-bottom:1px solid var(--border)}
+.entry{display:grid;grid-template-columns:172px 1fr;gap:16px;padding:12px 22px;border-bottom:1px solid var(--border)}
 .entry:last-child{border-bottom:none}
 @media (max-width:620px){.entry{grid-template-columns:1fr;gap:4px}}
 .period{font-family:var(--mono);font-size:12px;color:var(--text-2);padding-top:3px;letter-spacing:-.02em;
   white-space:nowrap}
 .entry h3{font-size:15px;font-weight:650;letter-spacing:-.015em;line-height:1.45}
-.entry .sub{font-size:13px;color:var(--text-2);margin-top:2px}
+.entry .sub{font-size:13px;color:var(--text-2);margin-top:2px;line-height:1.36}
 .entry .sub .dot{color:var(--text-3);margin:0 6px}
 .entry h3 .tlink{color:inherit;text-decoration:none;border-bottom:1px solid var(--border-strong)}
 .entry h3 .tlink:hover{color:var(--accent);border-bottom-color:var(--accent)}
 .entry h3 .lk{font-size:10px;color:var(--text-3);margin-left:4px;vertical-align:super}
 .concur{margin-top:5px;font-size:12.5px;color:var(--accent);background:var(--accent-soft);
   border-radius:6px;padding:4px 10px;display:inline-block}
-.details{list-style:none;margin-top:9px}
-.details li{display:flex;gap:11px;padding:5px 0;border-top:1px dashed var(--border);font-size:13.5px}
+.details{list-style:none;margin-top:8px}
+.details li{display:flex;gap:11px;padding:4px 0;border-top:1px dashed var(--border);font-size:13.5px;line-height:1.36}
 .details li:first-child{border-top:1px solid var(--border)}
 /* 날짜 칸 폭을 가장 긴 표기에 맞춰 고정 — 본문이 같은 선에서 시작한다 */
 .details .yr{font-family:var(--mono);font-size:11.5px;color:var(--accent);font-weight:600;width:140px;min-width:140px;flex:none;padding-top:3px;letter-spacing:-.02em;white-space:nowrap}
