@@ -152,7 +152,10 @@ details[open] > .grphead::before{transform:rotate(90deg)}
 .entry .sub{font-size:13px;font-weight:400;color:var(--text-2);line-height:1.36;
   margin-left:9px;letter-spacing:0}
 .entry .sub .org{white-space:nowrap}
-.entry .sub .oi{margin-right:4px;font-size:11.5px;opacity:.85}
+/* 정부상징 — 그림은 여기 한 번만 적고 115곳이 함께 쓴다.
+   크기는 앞서 쓰던 🏛(11.5px) 의 105% */
+.entry .sub .oi{display:inline-block;width:12.1px;height:12.1px;margin-right:4px;
+  vertical-align:-1.5px;background:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Cg transform=%22rotate(-38 50 50)%22%3E%3Cpath fill=%22%231F3A6E%22 d=%22M50 4A46 46 0 0 0 50 96A23 23 0 0 0 50 50A23 23 0 0 1 50 4Z%22/%3E%3Cpath fill=%22%23C8402F%22 d=%22M50 7A43 43 0 0 1 47 92.8A13 13 0 0 0 50 53.5A20 20 0 0 0 50 7Z%22/%3E%3C/g%3E%3C/svg%3E") center/contain no-repeat}
 .entry .sub .dot{color:var(--text-3);margin:0 6px}
 .entry h3 .tlink{color:inherit;text-decoration:none;border-bottom:1px solid var(--border-strong)}
 .entry h3 .tlink:hover{color:var(--accent);border-bottom-color:var(--accent)}
@@ -764,7 +767,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2008.10 ~ 2009.09</div>
         <div class="body">
-          <h3><span class="bkch">1-3-1</span>자동차용 생체인식 센서 핸들 / 고령운전자 건강정보 제공시스템<span class="sub"><span class="org"><span class="oi">🏛</span>현대자동차/남양연구소/선행기술팀</span><span class="dot">·</span>기획/개발</span></h3>
+          <h3><span class="bkch">1-3-1</span>자동차용 생체인식 센서 핸들 / 고령운전자 건강정보 제공시스템<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>현대자동차/남양연구소/선행기술팀</span><span class="dot">·</span>기획/개발</span></h3>
           
           
           
@@ -774,7 +777,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2011.11 ~ 2012.02</div>
         <div class="body">
-          <h3><span class="bkch">1-3-2</span>음파송출기 개발·납품<span class="sub"><span class="org"><span class="oi">🏛</span>고객: LG U+</span><span class="dot">·</span>의사결정자</span></h3>
+          <h3><span class="bkch">1-3-2</span>음파송출기 개발·납품<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>고객: LG U+</span><span class="dot">·</span>의사결정자</span></h3>
           
           <ul class="details">
             <li><span class="yr">2011.11 ~ 2012.02</span><span class="tx">1차 Stand alone 형태의 제품<ul><li>테이블, 책상, 매장 공간에 놓는 Table 거치형</li></ul><span class="dthumbs"><button type="button" class="th" title="IMG_0226.JPG — 눌러서 크게 보기">
@@ -797,7 +800,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2013.10 ~ 2014.02</div>
         <div class="body">
-          <h3><span class="bkch">1-3-3</span>체지방 센서·혈압 추정 알고리즘 임상시험<span class="sub"><span class="org"><span class="oi">🏛</span>삼성종합기술원(임상기관 : 서울성모병원)</span><span class="dot">·</span>기획/관리</span></h3>
+          <h3><span class="bkch">1-3-3</span>체지방 센서·혈압 추정 알고리즘 임상시험<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>삼성종합기술원(임상기관 : 서울성모병원)</span><span class="dot">·</span>기획/관리</span></h3>
           
           
           
@@ -807,7 +810,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2013.11</div>
         <div class="body">
-          <h3><span class="bkch">1-3-4</span>휴대폰용 심전도 모듈<span class="sub"><span class="org"><span class="oi">🏛</span>고객: LG전자</span></span></h3>
+          <h3><span class="bkch">1-3-4</span>휴대폰용 심전도 모듈<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>고객: LG전자</span></span></h3>
           
           
           
@@ -817,7 +820,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2015.09 ~ 2016.10</div>
         <div class="body">
-          <h3><span class="bkch">1-3-5</span>법무부 전자감독·야간외출제한·재택구금 / 스마트밴드 기반 통합수용관제<span class="sub"><span class="org"><span class="oi">🏛</span>법무부/범죄예방정책국</span><span class="dot">·</span>기획/관리</span></h3>
+          <h3><span class="bkch">1-3-5</span>법무부 전자감독·야간외출제한·재택구금 / 스마트밴드 기반 통합수용관제<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>법무부/범죄예방정책국</span><span class="dot">·</span>기획/관리</span></h3>
           
           <ul class="details">
             <li><span class="yr">2018</span><span class="tx">법무부(위치추적관제센터) 표창 수상 (2018.09)</span></li>
@@ -829,7 +832,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2016.03 ~ 2018.02</div>
         <div class="body">
-          <h3><span class="bkch">1-3-6</span>맞춤형 라이프로그·스트레스 건강케어 시스템<span class="sub"><span class="org"><span class="oi">🏛</span>(중국 Demo) 샤오미, 병원, 통신사</span><span class="dot">·</span>기획/관리</span></h3>
+          <h3><span class="bkch">1-3-6</span>맞춤형 라이프로그·스트레스 건강케어 시스템<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>(중국 Demo) 샤오미, 병원, 통신사</span><span class="dot">·</span>기획/관리</span></h3>
           
           
           
@@ -839,7 +842,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2017 ~ 현재</div>
         <div class="body">
-          <h3><span class="bkch">1-3-7</span>바나나체온계<span class="sub"><span class="org"><span class="oi">🏛</span>일반 소비자</span><span class="dot">·</span>사업 총괄</span></h3>
+          <h3><span class="bkch">1-3-7</span>바나나체온계<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>일반 소비자</span><span class="dot">·</span>사업 총괄</span></h3>
           
           <ul class="details">
             <li><span class="yr">2017</span><span class="tx">제품 출시</span></li>
@@ -852,7 +855,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2022.10 ~ 2023.06</div>
         <div class="body">
-          <h3><span class="bkch">1-3-8</span>BioProcessor 기반 Watch·EVK·BP-WATCH 프로토타입<span class="sub"><span class="org"><span class="oi">🏛</span>삼성전자/DS사업부</span><span class="dot">·</span>의사결정권자</span></h3>
+          <h3><span class="bkch">1-3-8</span>BioProcessor 기반 Watch·EVK·BP-WATCH 프로토타입<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>삼성전자/DS사업부</span><span class="dot">·</span>의사결정권자</span></h3>
           
           
           
@@ -862,7 +865,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2025.03.01 ~ 2025.12.10</div>
         <div class="body">
-          <h3><span class="bkch">1-3-9</span><a class="tlink" href="data:image/jpeg;base64,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" target="_blank" rel="noopener">콜드체인 온도로거 공급<span class="lk">↗</span></a><span class="sub"><span class="org"><span class="oi">🏛</span>고객: HK이노엔</span><span class="dot">·</span>의사결정권자</span></h3>
+          <h3><span class="bkch">1-3-9</span><a class="tlink" href="data:image/jpeg;base64,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" target="_blank" rel="noopener">콜드체인 온도로거 공급<span class="lk">↗</span></a><span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>고객: HK이노엔</span><span class="dot">·</span>의사결정권자</span></h3>
           
           
           <div class="thumbs"><button type="button" class="th" title="IMG_4521.jpeg — 눌러서 크게 보기">
@@ -885,7 +888,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2008 ~ 2013</div>
         <div class="body">
-          <h3><span class="bkch">1-4-1</span>AI 기반 u-Health 센서 및 계측 기술 개발<span class="sub"><span class="org"><span class="oi">🏛</span>지식경제부</span><span class="dot">·</span>연구책임자</span></h3>
+          <h3><span class="bkch">1-4-1</span>AI 기반 u-Health 센서 및 계측 기술 개발<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>지식경제부</span><span class="dot">·</span>연구책임자</span></h3>
           
           
           
@@ -895,7 +898,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2008.04 ~ 2009</div>
         <div class="body">
-          <h3><span class="bkch">1-4-2</span>u-Healthcare를 위한 손목형 생체신호 측정기 개발<span class="sub"><span class="org"><span class="oi">🏛</span>지식경제부</span><span class="dot">·</span>연구책임자</span></h3>
+          <h3><span class="bkch">1-4-2</span>u-Healthcare를 위한 손목형 생체신호 측정기 개발<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>지식경제부</span><span class="dot">·</span>연구책임자</span></h3>
           
           
           
@@ -905,7 +908,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2010 ~ 2014</div>
         <div class="body">
-          <h3><span class="bkch">1-4-3</span>노약자·장애인을 위한 근력보조 시스템 개발<span class="sub"><span class="org"><span class="oi">🏛</span>지식경제부 · 산업통상자원부</span><span class="dot">·</span>연구책임자</span></h3>
+          <h3><span class="bkch">1-4-3</span>노약자·장애인을 위한 근력보조 시스템 개발<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>지식경제부 · 산업통상자원부</span><span class="dot">·</span>연구책임자</span></h3>
           
           
           
@@ -915,7 +918,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2010 ~ 2012</div>
         <div class="body">
-          <h3><span class="bkch">1-4-4</span>생체역학적 분석을 통한 이동형 운동장애 진단기기 개발<span class="sub"><span class="org"><span class="oi">🏛</span>보건복지부</span><span class="dot">·</span>연구책임자</span></h3>
+          <h3><span class="bkch">1-4-4</span>생체역학적 분석을 통한 이동형 운동장애 진단기기 개발<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>보건복지부</span><span class="dot">·</span>연구책임자</span></h3>
           
           
           
@@ -925,7 +928,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2011 ~ 2012</div>
         <div class="body">
-          <h3><span class="bkch">1-4-5</span>Life Appliance 기반 생체신호 모니터링 시스템 개발<span class="sub"><span class="org"><span class="oi">🏛</span>중소기업청</span><span class="dot">·</span>연구책임자</span></h3>
+          <h3><span class="bkch">1-4-5</span>Life Appliance 기반 생체신호 모니터링 시스템 개발<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>중소기업청</span><span class="dot">·</span>연구책임자</span></h3>
           
           
           
@@ -935,7 +938,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2011 ~ 2016</div>
         <div class="body">
-          <h3><span class="bkch">1-4-6</span>생체신호를 이용한 IT 기반 재활의료기기 기술<span class="sub"><span class="org"><span class="oi">🏛</span>지식경제부 · 미래창조과학부</span><span class="dot">·</span>연구책임자</span></h3>
+          <h3><span class="bkch">1-4-6</span>생체신호를 이용한 IT 기반 재활의료기기 기술<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>지식경제부 · 미래창조과학부</span><span class="dot">·</span>연구책임자</span></h3>
           
           
           
@@ -945,7 +948,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2012 ~ 2014</div>
         <div class="body">
-          <h3><span class="bkch">1-4-7</span>ADHD 대상자를 위한 BCI 응용 스마트폰 게임 개발<span class="sub"><span class="org"><span class="oi">🏛</span>중소기업청</span><span class="dot">·</span>연구책임자</span></h3>
+          <h3><span class="bkch">1-4-7</span>ADHD 대상자를 위한 BCI 응용 스마트폰 게임 개발<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>중소기업청</span><span class="dot">·</span>연구책임자</span></h3>
           
           
           
@@ -955,7 +958,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2012 ~ 2015</div>
         <div class="body">
-          <h3><span class="bkch">1-4-8</span>스마트환경 질환맞춤형 서비스를 위한 2uV급 두발잡음극복형 BMI SoC 및 SW 플랫폼 개발<span class="sub"><span class="org"><span class="oi">🏛</span>산업통상자원부</span><span class="dot">·</span>연구책임자</span></h3>
+          <h3><span class="bkch">1-4-8</span>스마트환경 질환맞춤형 서비스를 위한 2uV급 두발잡음극복형 BMI SoC 및 SW 플랫폼 개발<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>산업통상자원부</span><span class="dot">·</span>연구책임자</span></h3>
           
           
           
@@ -965,7 +968,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2012.11 ~ 2014</div>
         <div class="body">
-          <h3><span class="bkch">1-4-9</span>개인맞춤형 모바일 건강관리시스템 탑재형 스마트 신발 개발<span class="sub"><span class="org"><span class="oi">🏛</span>중소기업청</span><span class="dot">·</span>연구책임자</span></h3>
+          <h3><span class="bkch">1-4-9</span>개인맞춤형 모바일 건강관리시스템 탑재형 스마트 신발 개발<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>중소기업청</span><span class="dot">·</span>연구책임자</span></h3>
           
           
           
@@ -975,7 +978,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2013 ~ 2015</div>
         <div class="body">
-          <h3><span class="bkch">1-4-11</span>PHR 기반 당뇨병 중심 아시아·유럽향 만성질환 관리 서비스 개발<span class="sub"><span class="org"><span class="oi">🏛</span>미래창조과학부</span><span class="dot">·</span>연구책임자</span></h3>
+          <h3><span class="bkch">1-4-11</span>PHR 기반 당뇨병 중심 아시아·유럽향 만성질환 관리 서비스 개발<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>미래창조과학부</span><span class="dot">·</span>연구책임자</span></h3>
           
           
           
@@ -985,7 +988,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2014 ~ 2019</div>
         <div class="body">
-          <h3><span class="bkch">1-4-13</span>Wireless 듀얼 밴드 기반 다중 생체신호 센싱 모듈 및 분석시스템 개발<span class="sub"><span class="org"><span class="oi">🏛</span>미래창조과학부</span><span class="dot">·</span>연구책임자</span></h3>
+          <h3><span class="bkch">1-4-13</span>Wireless 듀얼 밴드 기반 다중 생체신호 센싱 모듈 및 분석시스템 개발<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>미래창조과학부</span><span class="dot">·</span>연구책임자</span></h3>
           
           
           
@@ -995,7 +998,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2015 ~ 2018</div>
         <div class="body">
-          <h3><span class="bkch">1-4-15</span>일상생활 활동 적용 개인맞춤형 생체신호 센싱 모듈 개발<span class="sub"><span class="org"><span class="oi">🏛</span>미래창조과학부</span><span class="dot">·</span>연구책임자</span></h3>
+          <h3><span class="bkch">1-4-15</span>일상생활 활동 적용 개인맞춤형 생체신호 센싱 모듈 개발<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>미래창조과학부</span><span class="dot">·</span>연구책임자</span></h3>
           
           
           
@@ -1005,7 +1008,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2020 ~ 2024</div>
         <div class="body">
-          <h3><span class="bkch">1-4-22</span>임산부 건강관리를 위한 패치형 스트레스 분석 디바이스 개발·상용화<span class="sub"><span class="org"><span class="oi">🏛</span>과학기술정보통신부</span><span class="dot">·</span>연구책임자</span></h3>
+          <h3><span class="bkch">1-4-22</span>임산부 건강관리를 위한 패치형 스트레스 분석 디바이스 개발·상용화<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>과학기술정보통신부</span><span class="dot">·</span>연구책임자</span></h3>
           
           
           
@@ -1020,7 +1023,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2013 ~ 2015</div>
         <div class="body">
-          <h3><span class="bkch">1-4-10</span>Tremor 증상 정량진단용 Movement Polygraphy 임상 유효성 평가<span class="sub"><span class="org"><span class="oi">🏛</span>보건복지부</span><span class="dot">·</span>대표이사 총괄</span></h3>
+          <h3><span class="bkch">1-4-10</span>Tremor 증상 정량진단용 Movement Polygraphy 임상 유효성 평가<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>보건복지부</span><span class="dot">·</span>대표이사 총괄</span></h3>
           
           
           
@@ -1030,7 +1033,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2014 ~ 2017</div>
         <div class="body">
-          <h3><span class="bkch">1-4-12</span>동계 트랙 스포츠용 웨어러블 실시간 코칭 시스템<span class="sub"><span class="org"><span class="oi">🏛</span>문화체육관광부</span><span class="dot">·</span>대표이사 총괄</span></h3>
+          <h3><span class="bkch">1-4-12</span>동계 트랙 스포츠용 웨어러블 실시간 코칭 시스템<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>문화체육관광부</span><span class="dot">·</span>대표이사 총괄</span></h3>
           
           
           
@@ -1040,7 +1043,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2015 ~ 2017</div>
         <div class="body">
-          <h3><span class="bkch">1-4-14</span>생체신호 측정용 무선 센서노드 기반 수면상태 모니터링<span class="sub"><span class="org"><span class="oi">🏛</span>중소기업청</span><span class="dot">·</span>대표이사 총괄</span></h3>
+          <h3><span class="bkch">1-4-14</span>생체신호 측정용 무선 센서노드 기반 수면상태 모니터링<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>중소기업청</span><span class="dot">·</span>대표이사 총괄</span></h3>
           
           
           
@@ -1050,7 +1053,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2015.12 ~ 2017</div>
         <div class="body">
-          <h3><span class="bkch">1-4-16</span>생체정보 기반 지능형 범죄예방 관제 플랫폼<span class="sub"><span class="org"><span class="oi">🏛</span>산업통상자원부</span><span class="dot">·</span>대표이사 총괄</span></h3>
+          <h3><span class="bkch">1-4-16</span>생체정보 기반 지능형 범죄예방 관제 플랫폼<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>산업통상자원부</span><span class="dot">·</span>대표이사 총괄</span></h3>
           
           
           
@@ -1060,7 +1063,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2017 ~ 2021</div>
         <div class="body">
-          <h3><span class="bkch">1-4-17</span>자율주행차 운전자 및 상황 판단 HVI 기술<span class="sub"><span class="org"><span class="oi">🏛</span>산업통상자원부</span><span class="dot">·</span>대표이사 총괄</span></h3>
+          <h3><span class="bkch">1-4-17</span>자율주행차 운전자 및 상황 판단 HVI 기술<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>산업통상자원부</span><span class="dot">·</span>대표이사 총괄</span></h3>
           
           
           
@@ -1070,7 +1073,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2018</div>
         <div class="body">
-          <h3><span class="bkch">1-4-18</span>IoT 기반 일체형 전자감독장치 검증<span class="sub"><span class="org"><span class="oi">🏛</span>과학기술정보통신부</span><span class="dot">·</span>대표이사 총괄</span></h3>
+          <h3><span class="bkch">1-4-18</span>IoT 기반 일체형 전자감독장치 검증<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>과학기술정보통신부</span><span class="dot">·</span>대표이사 총괄</span></h3>
           
           
           
@@ -1080,7 +1083,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2018 ~ 2020</div>
         <div class="body">
-          <h3><span class="bkch">1-4-19</span>야간외출제한 및 재택구금용 양방향 전자장치<span class="sub"><span class="org"><span class="oi">🏛</span>중소벤처기업부</span><span class="dot">·</span>대표이사 총괄</span></h3>
+          <h3><span class="bkch">1-4-19</span>야간외출제한 및 재택구금용 양방향 전자장치<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>중소벤처기업부</span><span class="dot">·</span>대표이사 총괄</span></h3>
           
           
           
@@ -1090,7 +1093,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2019 ~ 2020</div>
         <div class="body">
-          <h3><span class="bkch">1-4-20</span>스마트밴드 활용 수용관리 시스템<span class="sub"><span class="org"><span class="oi">🏛</span>산업통상자원부</span><span class="dot">·</span>대표이사 총괄</span></h3>
+          <h3><span class="bkch">1-4-20</span>스마트밴드 활용 수용관리 시스템<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>산업통상자원부</span><span class="dot">·</span>대표이사 총괄</span></h3>
           
           
           
@@ -1100,7 +1103,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2020 ~ 2023</div>
         <div class="body">
-          <h3><span class="bkch">1-4-21</span>웨어러블 기반 교정보호관찰용 스마트 전자감독 기술·장치<span class="sub"><span class="org"><span class="oi">🏛</span>산업통상자원부 (ATC+)</span><span class="dot">·</span>대표이사 총괄</span></h3>
+          <h3><span class="bkch">1-4-21</span>웨어러블 기반 교정보호관찰용 스마트 전자감독 기술·장치<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>산업통상자원부 (ATC+)</span><span class="dot">·</span>대표이사 총괄</span></h3>
           
           
           
@@ -1115,7 +1118,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2022 ~ 2026</div>
         <div class="body">
-          <h3><span class="bkch">1-4-23</span>AI 빅데이터 기반 경찰 맞춤형 라이프로그·스트레스 건강케어 시스템<span class="sub"><span class="org"><span class="oi">🏛</span>경찰청</span><span class="dot">·</span>수행기관대표</span></h3>
+          <h3><span class="bkch">1-4-23</span>AI 빅데이터 기반 경찰 맞춤형 라이프로그·스트레스 건강케어 시스템<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>경찰청</span><span class="dot">·</span>수행기관대표</span></h3>
           
           <ul class="details">
             <li><span class="yr">2022</span><span class="tx">HRV 기반 스트레스·피로 예측과 개인 맞춤형 회복 피드백</span></li>
@@ -1143,7 +1146,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2014.06 ~ 2020.03</div>
         <div class="body">
-          <h3><span class="bkch">1-5-1</span>전자감독장치 (Opticon C)<span class="sub"><span class="org"><span class="oi">🏛</span>법무부 범죄예방정책국</span><span class="dot">·</span>언론 보도</span></h3>
+          <h3><span class="bkch">1-5-1</span>전자감독장치 (Opticon C)<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>법무부 범죄예방정책국</span><span class="dot">·</span>언론 보도</span></h3>
           
           <ul class="details">
             <li><span class="yr">2014.06</span><span class="tx">한국경제TV · 전자발찌 제도 확산…국민엔 ‘양날의 칼’</span></li>
@@ -1165,7 +1168,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2017.10 ~ 2021.11</div>
         <div class="body">
-          <h3><span class="bkch">1-5-3</span>바나나체온계 (FEMON)<span class="sub"><span class="org"><span class="oi">🏛</span>소비자 제품</span><span class="dot">·</span>언론 보도</span></h3>
+          <h3><span class="bkch">1-5-3</span>바나나체온계 (FEMON)<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>소비자 제품</span><span class="dot">·</span>언론 보도</span></h3>
           
           <ul class="details">
             <li><span class="yr">2017.10</span><span class="tx">디지털타임스 · 바나나체온계 ‘피몬’, 크라우드 펀딩 오픈 1시간 만에 100% 달성</span></li>
@@ -1183,7 +1186,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2019.04 ~ 2021.06</div>
         <div class="body">
-          <h3><span class="bkch">1-5-8</span>스마트교정 시스템 (Opticon P)<span class="sub"><span class="org"><span class="oi">🏛</span>법무부 교정본부</span><span class="dot">·</span>언론 보도</span></h3>
+          <h3><span class="bkch">1-5-8</span>스마트교정 시스템 (Opticon P)<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>법무부 교정본부</span><span class="dot">·</span>언론 보도</span></h3>
           
           <ul class="details">
             <li><span class="yr">2019.04</span><span class="tx">로이슈 · 법무부, 스마트밴드 활용 수용관리시스템 개발 착수</span></li>
@@ -1200,7 +1203,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2019.09 ~ 2020.08</div>
         <div class="body">
-          <h3><span class="bkch">1-5-10</span>외출제한·전자보석 장치 (Opticon J)<span class="sub"><span class="org"><span class="oi">🏛</span>법무부</span><span class="dot">·</span>언론 보도</span></h3>
+          <h3><span class="bkch">1-5-10</span>외출제한·전자보석 장치 (Opticon J)<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>법무부</span><span class="dot">·</span>언론 보도</span></h3>
           
           <ul class="details">
             <li><span class="yr">2019.09</span><span class="tx">연합뉴스 · 법원, 구속 피고인에 전자장치 부착 조건 첫 보석허가</span></li>
@@ -1221,7 +1224,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2016.04 ~ 2020.07</div>
         <div class="body">
-          <h3><span class="bkch">1-5-2</span>업무제휴·MOU<span class="sub"><span class="org"><span class="oi">🏛</span>산학·기업 협약</span><span class="dot">·</span>언론 보도</span></h3>
+          <h3><span class="bkch">1-5-2</span>업무제휴·MOU<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>산학·기업 협약</span><span class="dot">·</span>언론 보도</span></h3>
           
           <ul class="details">
             <li><span class="yr">2016.04</span><span class="tx">이뉴스투데이 · 고신대복음병원과 다자간 업무제휴 MOU 체결</span></li>
@@ -1236,7 +1239,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2017.11 ~ 2017.12</div>
         <div class="body">
-          <h3><span class="bkch">1-5-4</span>코넥스 신규상장<span class="sub"><span class="org"><span class="oi">🏛</span>한국거래소 KONEX 285770</span><span class="dot">·</span>언론 보도</span></h3>
+          <h3><span class="bkch">1-5-4</span>코넥스 신규상장<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>한국거래소 KONEX 285770</span><span class="dot">·</span>언론 보도</span></h3>
           
           <ul class="details">
             <li><span class="yr">2017.11</span><span class="tx">아시아경제 · 라이프사이언스테크놀로지, 코넥스 상장신청서 접수</span></li>
@@ -1250,7 +1253,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2017.11 ~ 2019.01</div>
         <div class="body">
-          <h3><span class="bkch">1-5-5</span>전시·수상<span class="sub"><span class="org"><span class="oi">🏛</span>CES · 디자인코리아 · 하이서울 PR대상</span><span class="dot">·</span>언론 보도</span></h3>
+          <h3><span class="bkch">1-5-5</span>전시·수상<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>CES · 디자인코리아 · 하이서울 PR대상</span><span class="dot">·</span>언론 보도</span></h3>
           
           <ul class="details">
             <li><span class="yr">2017.11</span><span class="tx">머니투데이 · 바나나체온계 피몬, 2017 킨텍스 ‘디자인코리아’ 참가</span></li>
@@ -1266,7 +1269,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2017.12 ~ 2018.12</div>
         <div class="body">
-          <h3><span class="bkch">1-5-6</span>CEO·회사 인터뷰<span class="sub"><span class="org"><span class="oi">🏛</span>대표이사 인터뷰</span><span class="dot">·</span>언론 보도</span></h3>
+          <h3><span class="bkch">1-5-6</span>CEO·회사 인터뷰<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>대표이사 인터뷰</span><span class="dot">·</span>언론 보도</span></h3>
           
           <ul class="details">
             <li><span class="yr">2017.12</span><span class="tx">머니투데이 · 웨어러블 헬스케어 기기로 세계시장 선도</span></li>
@@ -1283,7 +1286,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2018.05 ~ 2020.11</div>
         <div class="body">
-          <h3><span class="bkch">1-5-7</span>증권가 분석보고서<span class="sub"><span class="org"><span class="oi">🏛</span>하이투자증권 · DS투자증권 · 코넥스협회</span><span class="dot">·</span>언론 보도</span></h3>
+          <h3><span class="bkch">1-5-7</span>증권가 분석보고서<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>하이투자증권 · DS투자증권 · 코넥스협회</span><span class="dot">·</span>언론 보도</span></h3>
           
           <ul class="details">
             <li><span class="yr">2018.05</span><span class="tx">하이투자증권 · 부착형 체온계(바나나 체온계) 선두업체</span></li>
@@ -1299,7 +1302,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2019.07 ~ 2020.12</div>
         <div class="body">
-          <h3><span class="bkch">1-5-9</span>투자유치<span class="sub"><span class="org"><span class="oi">🏛</span>제3자배정 유상증자</span><span class="dot">·</span>언론 보도</span></h3>
+          <h3><span class="bkch">1-5-9</span>투자유치<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>제3자배정 유상증자</span><span class="dot">·</span>언론 보도</span></h3>
           
           <ul class="details">
             <li><span class="yr">2019.07</span><span class="tx">프리스탁뉴스 · 10억원 규모 제3자배정 유상증자 결정 (하나금융투자)</span></li>
@@ -1313,7 +1316,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2020.07</div>
         <div class="body">
-          <h3><span class="bkch">1-5-11</span>우수기업연구소(ATC+) 지정<span class="sub"><span class="org"><span class="oi">🏛</span>산업통상자원부</span><span class="dot">·</span>언론 보도</span></h3>
+          <h3><span class="bkch">1-5-11</span>우수기업연구소(ATC+) 지정<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>산업통상자원부</span><span class="dot">·</span>언론 보도</span></h3>
           
           <ul class="details">
             <li><span class="yr">2020.07</span><span class="tx">연합뉴스 · 혁신형 강소기업 48곳, ‘우수기업연구소’ 신규 지정</span></li>
@@ -1444,7 +1447,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">1991.03 ~ 1995.02</div>
         <div class="body">
-          <h3><span class="bkch">3-1</span>인제대학교 보건과학대학 의용공학과<span class="sub"><span class="org"><span class="oi">🏛</span>학위</span><span class="dot">·</span>공학사</span></h3>
+          <h3><span class="bkch">3-1</span>인제대학교 보건과학대학 의용공학과<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>학위</span><span class="dot">·</span>공학사</span></h3>
           
           
           
@@ -1454,7 +1457,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">1995.03 ~ 1997.02</div>
         <div class="body">
-          <h3><span class="bkch">3-2</span>인제대학교 대학원 의용공학과<span class="sub"><span class="org"><span class="oi">🏛</span>학위</span><span class="dot">·</span>공학석사</span></h3>
+          <h3><span class="bkch">3-2</span>인제대학교 대학원 의용공학과<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>학위</span><span class="dot">·</span>공학석사</span></h3>
           
           <ul class="details">
             <li><span class="yr">1997.02</span><span class="tx">석사학위 논문 「Wavelet 변환을 이용한 청각자극에 의해 유발되는 뇌파의 분석에 관한 연구」 (지도교수 : 임재중)</span></li>
@@ -1466,7 +1469,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2018.09 ~ 2019.02</div>
         <div class="body">
-          <h3><span class="bkch">3-3</span><a class="tlink" href="https://aip.snu.ac.kr" target="_blank" rel="noopener">서울대학교 공과대학<span class="lk">↗</span></a><span class="sub"><span class="org"><span class="oi">🏛</span>교육(최고위과정)</span><span class="dot">·</span>최고산업전략과정(AIP)</span></h3>
+          <h3><span class="bkch">3-3</span><a class="tlink" href="https://aip.snu.ac.kr" target="_blank" rel="noopener">서울대학교 공과대학<span class="lk">↗</span></a><span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>교육(최고위과정)</span><span class="dot">·</span>최고산업전략과정(AIP)</span></h3>
           
           <ul class="details">
             <li><span class="yr">2019</span><span class="tx">과정연구: 커프리스 연속혈압 추정 알고리즘의 정확성 비교분석</span></li>
@@ -1485,7 +1488,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">1994.06 ~ 1994.08</div>
         <div class="body">
-          <h3><span class="bkch">4-1</span>한국IBM 부설연구소<span class="sub"><span class="org"><span class="oi">🏛</span>CRM</span><span class="dot">·</span>인턴연구원</span></h3>
+          <h3><span class="bkch">4-1</span>한국IBM 부설연구소<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>CRM</span><span class="dot">·</span>인턴연구원</span></h3>
           
           
           
@@ -1519,7 +1522,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">1997 ~ 1999</div>
         <div class="body">
-          <h3><span class="bkch">4-4</span>㈜쏘라테크<span class="sub"><span class="org"><span class="oi">🏛</span>창공기술연구소</span><span class="dot">·</span>연구원(전문연구요원)</span></h3>
+          <h3><span class="bkch">4-4</span>㈜쏘라테크<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>창공기술연구소</span><span class="dot">·</span>연구원(전문연구요원)</span></h3>
           <div class="concur">⇄ 겸업 · 전문연구요원/한국도로공사·삼성종합기술원 근무</div>
           <ul class="details">
             <li><span class="yr">1997</span><span class="tx">뇌파 기반 HCI 연구</span></li>
@@ -1531,7 +1534,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">1997.02 ~ 1998.12</div>
         <div class="body">
-          <h3><span class="bkch">4-5</span><a class="tlink" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAD6AaQDASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAECAwQFBgf/xABREAABAwIDBAUHCQQIBAMJAAABAAIDBBESITEFE0FRYXGRktEGFCIyVIGhFSMzUlOTlLHSNELB4SRDYnJzgqLxBxZE8CVVshcmJzVjg4TC4v/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME/8QAGxEBAQEAAwEBAAAAAAAAAAAAAAERAiFhQYH/2gAMAwEAAhEDEQA/APQZ8bJIukfivG7BNLgjrWoAovkkTkj81QXRcpJEoGT0pXRdLXVA+KLqJsSL8EAYRZosAMgERK6WKySXvQO/vSJKOCigd+SV0imgLlF0ilfmiJg9KkHZqsFSCC4OPNTaTzVTVMFaRc1xVzHHms7Srmaqo1RuPNbYCsEZWyArUSupAdFsjWGArZGVuMtATCi1NVEkkkXTAFQdopFRdoiqJFEaqT1EJgsCkNVBqmEwBVTzkrCqn6IrLUHIrj1R1XWqDkVyKo2usVqMEh6SqC43OaukVDiFzVF7nHioFx5+9MlQcopFzuZUcTtLoKioHjdzRidz+KWaApimXOv65QoHtQs4OgehLNMpHNIo5Iui6V1oPjkkldK+qoUpfu3bu2O3o4tLrn32x9WiHverquqqYZA2CifM21y4PAA7Viq9qz09NLJUUb6cYbNeXNd6R0yCzarnV3lJU01S6ERwOLMnOF7E8bLbsHa1XtOaTeRRtiYMy29yeC8c7dOcS6d7nE/Uvf4r0eztsUGyafzVwlfI03e4MGbu3hosceV3urY9O94Yxz3mzWi5PILyknlZPvHCOCMtv6NydFvmrXbcoJotmhzDcNc6X0RbkLLkf8r1wJu+EAccR8FeVvxJJ9ej2LXVFfTOnnjYwF1mBt8+ldC+a4sG0oqOBkEdLUFsYwggNz6dVvp6t9RDvG08jQTaz7D+K3Klar5pcVSZpeFO4/5m+KiZ5vZZO83xVRoSVBnlt+yydWJvikZ5h/0kneb4pqY0EpLOaib2SXvM8UvOJfZJu1nimjT2KYWPziW/7JL3m+Kk2pm9jm7zPFUxtBU2lYhUy6eZzd5nipipl9jn7WeKuo3tKtaVz21Mvsc/az9StbVS+xz9rP1K6mOnGVsgOi48dXL7HP2s/UtkNXL7FUdrP1KypjuwHJbozkuHBWS+w1B97P1LdHWTew1Paz9S6SxnHUaVK6wNrJvYKjtZ+pS87m9hqO1n6ldhlbboWPzyb2Co7WfqR53N7DUdrP1JqY1qDtFlNXN7DUdrP1KLqub2Co70f6k1cXPUQVlfVzewVHej/Uoisn/8vqO9H+pTVx0ApLC2rn9gqO9H+pPzye3/AMvqO9H+pXTGwlVPKodVz8KCoP8Amj/UqpKufP8A8PqO9H+pNMFRouRVrVUVdRY/+H1Hfj/UuRU1dR/5fP3mfqWLWohJrdUOVclTPf8AYZu8zxVLqmf2KUf5meK561i4lQJss5qZr50U3eZ4qJqZ/Y5e8zxUF5USqDUTX/ZJe83xUPOZvY5u8zxU1catOpPQLJ5xNwo5u8zxR5xN7HLf+8zxQaShZ9/L7LKOtzfFCzq466SQN0XUgeaRyRdIrQBdJ7g1hc69gL5C6LrNUV9JTPEdRURscRezjZUZztiH7Gq+4cvP+VNY6tfFBBcRsbjdiIabnmDyH5r0E22KJsEskc8chYwuwsdcr59USyTzvlkN3vJcSufO/GpGikppA4zODbRDEAXDN3AdufuVQppnE5AnU3eM/iulSsbT0jI3Fge/03gyRDXQWd0Z+9W71sEb5wGHd6W3Thi4A4Rf/ZYxXe2K6j2fQMhfUQNl1kBkF8XL+Cs2ptCIUbhTzRuc/wBEFr2Zc9Tb/deAzcc7knieJXZbhgjjgDmHAPS+dizcdcnXPR7lqcusSw44XyStjYYyXHIbuHxXqKepjp4GRNgqLMaBlAR8AFydi7pshqJnNaxuTLbs3P8AlGX812jtCl+1HYVvjPrPKg1zL5w1H3LvBHnzPsqn7l3ggbQpL23zb+9Hn9L9uztWkLz6P7Oo+4d4JefR/Z1H3D/BPz+lt9PH2oNfScaiPvBAjXxcY5/w7/BL5QiP9XUfcP8ABM19IBnUR95IbQpPaYu+FQ/P4r+pUfcP8FIV8I/cn+4f4KPn9Ja/nMXfCY2hSW/aYu8ERJu0YfqT/cP8FNu0YfqVH4d/gojaFH7TF3wpDaFH7VD3wqLRtCEZ4J/uH+CsZtKD6lR+Hf4Klu0aP2mHvhWt2jR3/aYu+ERoZtKD6lR+Hf4LVDtSn+rUfhpPBZGbSohrVQ98LVFtOi9qh74WomOjT7Vp/q1P4aT9K3RbUp/qVP4aT9K59PtOh9qi74XQi2nRWH9Ki7wW5fWcXjatPpgqvwsn6VP5Up7XwVP4aT9Kg3aVF7VF3wrPlKi9qh1+sFd9T8A2pB9Sq/DSfpS+U4M/m6r8NJ4J/KVF7VF3gg7TorftUXeCb6Z4R2nAP6up/DSeCg7akGm6qvw0n6VP5Tovaou8oO2nRD/qY+8m+rnil+04OEdV+Gk8FEbThvbdVZ//ABpPBOTalENahii3atFf6dvYVN9M8Wt2pDl8zV/hZPBS+VIvsav8LJ4KDdrUX24PuPgn8sUP23+h3grvq54Z2pD9hV/hn+CqftSK30FX+Gf4KTtr0IFzP/pd4KqTbFCL/Pf6HeCb6Z4zT7TjIP8AR6v8M/wXJqtpR3J3FV9w7wXUqNsUOfzx7jvBcqp2rRm5EpP+R3gsWtRhftBhJ+YqfuXeCqdXtGsFTf8AwXKb9qUfCR33bvBVO2lSH+sPcd4LFVA17PsKn7lyga9hP0FT9y5SdtKlOj3/AHbvBVu2lSj9933bvBQL5QYf6ip+5cl5+2/0FT9y5HynS39Z9/8ACd4JfKNNf1n/AHbvBRR5+2w+YqeX0JQK5unm9Tb/AAil8o031n/dO8ExtGmte8lv8J3goH5837Cp+6KEhX050c+3+E7wQmq7JsldF+CSkU0uf8UX5IvdVAoPjjebuY0npF1K6LjmqKjBEQRumEH+yM1nq2UlNTvmkhgaGjVzQBfrWxRI5i6YPEue173v3+bjc2qhb/0L0uyKNkdC3eNxF5xHE7H1Z2C3lrdcLexStbRZnHC1h2gaekpXyYImO0bcBtz12Xlbtc+3nBJJv+1ce4vbOAORFx0qOFv1R2JeOkrFs409LSMidOwuAu4ukBN+Oa1ecQAfTR94KW7j+o3sRu2H9xvYtSIiKiE6Sxn/ADBG+ivlIztQYmX9RvYgxx/UafcqgE0X2jO0JbyPg9vajdR/Ub2JGOMfuN7oQSxs+sLdaWOP6ze1LdR/Zt7AjdRcY2d1ACWMj129qk2SM6Pb2qG6i+zZ3UxHF9mzsVFoez6zclMSR8XN7VTuor/Rs6fRUhFEf6tvdRFwkjy9JufSrGyx39dl+tUtjj03bOrCFY2KLURs7oVGmOWL67O1aopovrs7VhbDDxiZ3QtMcUP2TO6FWXTgmiy9Nnat8VRDb6RneC5UEUOm6Z3Qt8UUNvoo+6FuM1vbPF9oztCnv4vtGdoWZkUP2UfdCs3UP2bO6FrtOl2/h+0Z3gjfw/aM7Qqt1Fb6JndCN3Fb6JndCdnSw1EI1kYP8wUH1ENvpWd4KO6iv9GzuhQdHF9mzuhO1VyVUHGaPvBRbWU1/p4u+EnxR/Zs7oSbHH9m3sU7VcKymGRqIr/3wma+kGtTDn/bCg2OPTA3sCngj+zb3Qr2K3bRorZ1cH3g8VU/aVDY/wBMp/vG+KvLI/qN7qrcxn1G9inasM+0qEj9rp/vAuVVbSoc/wCmU/3rfFdmdjM7NaPcuZVNZ9VvYs1Y5T9o0RJtWQfeBUu2jQ+2U/3gWyRrb+qOxVOa36o7FzaZXbQova4PvAoO2hRDPzuD7wLUWi+gUS0cgoMhr6If9XB94EjX0YAPnUA6d4FqIbwaAoutZFZvP6PXzqD7wI+UKI/9XBb/ABAtNhlkiw1soM3yjRcKuDvhC02HJCit3QEXzyQOpInpUBdF0JdKoZKSWqDyVBzSuhBsiEUIPUlfmgDolfVHWlqqHdK6NEkQFCCkSFQISQgEapE5IQO+iAjpRxQSCkD71BSBVRYNVY05qkHNWNKqL2uV7CsrSrmOCqOhC5bon5arlxOWyJ/StRK6LH5KwPvosbHq0PW2WgO6UYlRjRjUFxeoOeqy9RL0A9yi12are5JrlFamuUsSztcpYlVWl3Sq3OyUS5VvcmiuZy5lSdVvldkubUFYrUZZDe6qJU3lVFYUioFSJUSoqJKRKZOaiehRTS6kFF0B8EIuhQbtOaL+5CPcsxorpIQVpCujrSOaLqgukdEdSEQr8Ur80aIugEigm6NUAkShBVRzPKKepp9kzzUbi2RljcAGwuLrzdB5XzU8Ajq43VL733mINyPC1l7OYYo3tJFiLZr5nBK3Zs1VDWUMc7y3BZ59Q8xkrEr1NB5XRVVUIn0xjZhc4vx3tYE6W6FZsvyqir65tK6mdFjNmOxX7eSxeRNAH01RUVMDXMeQ2MvbfIXva/WOxcKqppn+UE0FB6EnnDhHgOHDmdDwVHr9v+UPyRPHEKUyl7MWLHhAz6iuX/zs61/MAP8A738k9rV9Vs7zOmmo4KqQU7cckrS8l1yNfd8VzH+UEoILtmUIHC8H80HTb5ak2xUHXaX+S7mztsR12zZaxkZbu8WJhPEC+q8XUbYlqqWSL5OpGh4sHxw5jqK7fkrHIfJ6tjDDic54aCLXOAII/wDO2eVASP8AF/kpDy1AtegNzyl/kuBsnabNmGZstDHPiIylyLbe4rojympb57Fpu0fpRHb2R5VDaNfFSeaGMvv6WO9rC/JT2n5UigrpaYUbpN2R6WO18geXSrvJyppNo03nUVFFBIx5aQ1oyy4G3SuDtvalfHt+alhrBDHiaG4iA0ZA5myQdAeXAB/YDbid7/JW0/lxG6VrZqJzGki7hJe3wXMbUbVuLbdoc/8A6zT/AAVLtj1+1agH5RoqmVrf3ZrkD3BaR7PbnlGNjSRN83Mu8aXevhtZYY/+IDbXOzyD/i/yUPKba5oaqCM7PhqRgvjkZfDnawy6F5uDb03n5mFLTPiJNqfctta2l7XRHr4v+ITTY/J50+1/ku+3yljd5PP2uyB5DDYxE2N8VtffdfO9o+ULayjfTDZlLC55Hpxts4Z3yyXapX//AA+qgQReS3+pquo6P/tDZYn5Pd97/JdWHyvo5tkz12FzXQnCYXHMuOgHX4rgeS0FPN5M10s8Ecjw6Sz3MBOTRbMqn/h/HDP8oMmjZK35s4XtBsfS4Hirq49P5PeVEO2pnwiB0MrW4gC4OuP+yF3C9fHtixbRqNovj2TI6OfCSXh+EBtx/EjLNfVw/IJqLXvSD1SXpB6itbXqeJZWvUg5BeXqtztVAvVbnpqlI/IrBOdVpkcsczlmrGZ5zsqyVJ2qgSstETysolMlRUBdRN0cUuKimg6JBF8slKBCRKEHQQlxQSpGh0pEoJSKoD1pXSJQqgRfJCSA96RPBHvSKIEuKajfLJA0X5pXRqqjl+U8ck2xKpkQu7CDboBBP5LxmzNq0lHSbuo2XDUuxEiR9r9WhX0bgqHUlM51308RPSwKweVHlphaA3Z4DQMgJf8A+VzNkVQqvKmKpwYN7KXYb3tcFe880pb/ALPD3ApNp4I3BzIY2uHENAKI43lFXbUpaiFuzqcyMLCXOERfnfoXm9pT7Z2nG1lTSSkMOIBsDhmvoB61Fzmsbie4AcybIY8JT7U25s+jZEKdzYYhYF8By6yu/sbbUtTsSprahjHSQF2TfRxWAPSuvVGB1LJ5zgMBb6ZccrJUtJS00Bjp4o2ROzIAyKDyjvK6J7i52y4nOOpMl7/6VXWeUsdVRS0w2dGzeCwcHA26bWXshBT/AGMXdCkKeAj6GPuhUeO8j9r+bPbQCEO30t8eO1suXHRPbddsqo2nP5zSVBkjcY3OjeAHWyvay9kyKFpBbEwEaENGSZghc4udFGSdSWhNTHz4TbDB/Y6z3TN8FHY+1GbM2qapkT3Rek0MxZ2Ol19DFNT/AGEXcCYp6fXcRX/uBXRfSzippI5gMO9jDgDwuLrw/kztCn2NtOd20mYTmxrrXLCDmLa5r3DSGtsMgPguNtPZmxtpyb2WdkUvGSKRoLutBw/OWbV8roZaCN2B07H6WybbEfgSvZeVzv8A3dqgP7P/AKgs+wtl7O2cxz6H03OydKXBxPRcLrlzXtLXgOB1BVTHnfJN5PkpX8Luk0H9gKn/AIePIdtDgLR//svTRvhAfHFgGE2c1o0JF81U2soorhktOzmA4BNMeT8hZL7encSCfN3aZW9Jq98ZOlc+B9O8l9PujfVzLfwVm+GLDizte100xqMnNJr81lEzXOLGuBc31hfMKTX53U0bWyKQfZZGvUsaujSX9Krc9VY1EvHNQSe7VZZipvde6zyOUqxW4qBTJvxUCo0Cc0ilcoKyEgkXSQSihHSjqSUDICEDqBQg33SJQboOqkaLikb9aZKiSqFqUXuUroKqHfJI80HTNK6AS+KZKj2IgcUBLqSvZUNIm6OhCID8Fx9rsadoUxnbVOp92++4D/WuLXwZ6XXYtksNTFtF0zjT1NOyLKzXwlxHvuqMNE/Zrp4paZta83s1xE5byzvl2peUNSyKakjeGEyY7OfUuha21tSNfep01HtGhpxE2upRGHGxfCdXG/1uZWmqir3PG6lpAwAfSREm/HiiPPPcx+ERVVFC4ua7GNpvdbMXyOS6+1Nx8p0x2jhNGI3Yd56gkuNfde11GnodoQGXd1FE7eyGQ4oXanl6S1V7a0Q0pha2WRrwZmtdgDhY316bKjhVdjsuuFLvxRGQmHcgYdBivf8AdvfTpXfrZaBlPFHtExYHZtbKLg2/3WepmqpaaSKo2YNy5pDwahoAHWunHcxMJbhOEZXvbouoPP1k3k+ykmMMVI6QMOENjBN+C6dLVMp9k0/mjH1YYxsY3VjcgW49SlTU0ke1K2dzbRytjDDlnYG/5haKptQ9jRSyxxOvmXx4gR1XCo5bKfaLao7QxRGqc2xpMXo7vgL878V2KSodPFjfBJCb2wyAX+BXLFBtHzzznz2Debvd/s5ta9/rLo0rKhjCKqVkr75FkeEAdVyg0OAe0tdoRYrDejJiO7dd8roW5nUXvx/slaKhszo7U8jI339Z7C4W6rhc4bMrgI/6dD83M6Yf0Y6m9/39PSKC/Z8rYtlzPfIcAllDS4k2GMgBcuOsqYRFCGte0tw4hJ6Itz+ayXbpIZ4Y3tllidf1BHFgw8+JusDaaZrWiaifPM0W3vnPrHnmQR1WyVRqpquefZ07IyPOMDiwtcXX5G+Fovf8lFrYWywmghnY+x37g1wJbhOTr6uva3H4rTQMmip8M7ruxEgYi6wJyFzqqqd20Iowx8MchF7vdOc8/wC6gNjz4flB5bPlMDaUXf6jVfJtOnjwh8EzS92FoMJzPLROlDmmR74mxvkdd2F+K+QF9Oj4KuujfM+lLACI5g92fCxH8QoFQVJbNVudTTMxyFzQYzmA0Ae82+KpL6ltX8oYBmN2afEMQj1vyxX4XtbpXRxLh1VHWyVUr8GJpcSzCYtPewn4oOrRk/KNdIB6D93hdzsF0A+/FcXY9NJTGd80ZY6Qi5Lmm9uhoAC6eJBpa/pUw8LKHHmpY0Ggv6VAv6VTjyUXPyQWueqnOzUS7NQJ6VFDiblRJshxzUTmop6pIPFLqCigm6CjRF0BlYpdRRqmoC5HBCXUhQbz8EiglI634JGh8Eii4vdI6dCoLoOSSRzRDSPSi/vS96ICehLmgouVQihBSKBpFIlF+hVDuuRWGJ+0JG7QlfFTiNph+cLGk3OLMEZ6LrXKx1jqllRA+CJ8sQxbxrC0HhbUjpQcqaR7qak3s1TczswtdF6Lm730S52HI2txC6tXLSl4ZURF5bp8w54F+mxChM99RgjkoagNxtdixMsCCCD63QtvFVHDrX0MsTW0lOS4TsxOZTO9CzgTo3XJX7Xmjc2mO8aAH43RS4mB7bEZ2F9bHMcFqoIXxCo3jcOOdz29INs0bRM4jjNPG6QYxvGNIu5lje18uSo5Ek8L6HaRhc0RyU7sEceIsFmm5vYAXuOxegi+jZ/dC5UsQlohSHZ1WIxFu22kjuBa3111GCzGjkOKgndF+CjfJMIGn/3ko3RdBK/NO4UE73VErp35qF0r8kE75Iv0qN0XugndK+WSjdK6Cd0XUCckB11BMHJPFZV3RdBbiyRiVYJSvy7EFmLJIuKgSlizQWEqJPNRvxRdRTvyRdRui6BlCiSEA5ZqKd+SEk+pA+hCXBGSijMaIQDzQiNyCUikVGgdOCR5pqJzVBdBSCEQtOaDdBKSoNUHTghK6IDlZK6CUkBoi6NEiiHdQkljjtvHtbi0ubXUiqamGCZlqqOOSNufzjQQO1UDqunZbFPEMRsLvGayz7SNPtSCilhynB3cjX30FzccFzoaOLam0o6llO2OhpzeMhgbvnc+oKe1wT5QbHPC8n5BVHdRwS4JdKKCUJFCId0XS4Iugd1CSaOOwke1t9MRtdSWetFKYC6tbE6FuZ3rQQEEzW0oIb5zDicbAbwXJ5Kis2g6lrKaF8QMdQ7AHh2YdyIt/FcN7GybRjrJqdtNBfDSB0dg598i62Yvwvy7dG0/O3VuyvOdy35/1YyfzKo9DdF+eqihQSuUXuLhRui6B35JgqJKNEDuk52EEgEkcBqUr5Ln7baxlE+q3LpJIW3a1rnDtscxxQXU20oqiXA1k7SAbmSJzQLcyQoRbRcdrPoJIwPmt6x7XXBbe2Y4FcOlMAnpYt5T17ap13xubiMRtqMzYdBWqaanovKVrpXNjjFHgaADYelpl1Kj0N075KinnZUQtlhcXMdoSCL9qtvdZUybouogouglmlf4pA9CaB3SSGqLoqV8klHiU79Cgf5pqJKaB3yyRdRCd1FSvzQo5cyEIN10tOpB1S45KKEkcNUfBVAdUuKEroDmg8+CRSuqAnmhHwQiFdIk36E781Em6oaSV0KA1WeppI6ogT4nxjWK/onrHHq0WhIlVHLm2nUQ7S8wjog8lmNjt6Ggt05LJVySybd2Z5zS4HAvwBsoI0FycuC3VWz5JtoxVkVSYiyMsIDQb3PSmNnvdXQ1U1VJK6IODGlrQPSFjoFR0OCSEkDugqN0XQO5QldF0ATmq5aaKaRkkrcRjN2gnIHnbS/Spkp3QYtq1EEELI5oWzGZ4ZHEbek7hrwWFz5n7To4tohrH43yQGM3a7L1TpmL6rftChir42Nkc5j43B0cjMnNPQqKfZZFXHV1dVJUyxghmIABt+NhxViOndCV87I6FA0XUU+CB3SuldCB3WSrhq3vDqWrbE21i10Yd7wtSEHBoqSGn2nLTOfViWUGVzg4Na/PUYcxrotkOznRbbNW36LzfBm4uJdfp6Ar6mhimqG1AfJFO1uEPjdYlvLkotobSRyOq6p5Yb2MlgesAC6DcOgp9SignNRUhpyQMlFNA0HRK6EUFGXBK/ahBK6VyldCgfSnfNIG9kIHfNAOSWgRoop26LoSJHFCDcTe6RPFI2RfsUUcEcuKXvRkqDNLNPikqgv2JI4pXN0DUU9fFInghhXSJzRkl71UMm2qSRQgdxxXP2jI9pwwVLxO4WjiaGm55nK9ua3XWOrp5XTCSIAtI9JokMZJ5kjXqQV01RUSbRmhkLQ1kQw5k3NznmB8FbHLOKtsL3xvGAufhjIw8uJ1z7Co0lPIx8r5PRDmhrQJC8i188RF+OnQtEEMcDXCIWxG7je5ceZPFEYPOp27NgldK2ORzwHyPAIAueoKyCpa6Vo+UqeTP1GAXPxUm09THTRxwzRxlpOLFHjuL9YSjpquO5NWw4jcjc8ej0lRuyvYLA2rndUPc1hNO4YIidC7mcrgG9r9C2k+9Y5IZ99I+4ka43F5XMwCwysL8bm/SgqgnqRS7yQEuFS5rw0F9m4iLDK/wU6urJhBgbNfeMzLC3LG0EZ21BUhTzt2fLBviZntfhfcjCTe2euWWeqhJTSkNDPRIe033zjkCCcuoIJ19U+GOLdtcXueC4AXLWA3cT7vzCm15dXiziWGHELG411VjYo2yPlDRjcAC7oCrjpmxVAfGA1gYWho4Z3QWVU/m8LpPm7jTG7CO2xXMFcGSOlFfTSvcBeAyWY0dBzsdcyM+hde+aqbFapkmvk5jW26iT/FEZK6WeQMFCZCSA8uFg3De+pGp0VkUsu/aX33W6JbkcRzGotqnW0hqcBa5lm3uyRuJjr8xcZqNDRmmke47locABHDHgaOm1zcoKJDRbwBzq4PeThGKYXPQtmznOdSRh4kDwAHCQG4PWdetOaHez08lwN04ki2twR/FXBFZa4tJaySCd4HGJ1h+YWemDm1zHMp6lkZjIdjlxC5ItliPT2q7aFG6pfE4bk4A4WmixjO3C45KqmojT1LZXupm+i5gEMO7JvY8zfREZjXTB8ofVxscJXtDXTMaQATbItPALTM4zbOjtMXOc4HEy7wbOzF2jTK2iufSOeWOfVzEsdibkzI2I+r0lOWmMsD4HVD3F1jc2v1WAGWX5oMFLKRMSYXNDX2B+ddcc7W612c8JtrwuudFs7DNHI40zRGbjcwYD7zc5LoOF2EB1riwI4IrkukniZK6Goklia1ofIW3s7FZxb1C/R8VOGbfxVAhqJpI4XixjAxOGEG1+srVFR7un3IqZiwNDW2LQW20tYfmkKIBuU8rZcWIyC2I5WzFrWtbhwQFLWMFLS+cTMMsrRYgesVIunbtJjXPBhdE4hobaxBbqb56q6CNlPCyJnqNFhc6puYwzMkJ9NrS0Z8DYn8goJhBPJCEBdMdiV0cFFPTRBSRfkgd0DVJCB5XT/MpXRqooNkI4ZlCDYTmi+ZSKV8ypFNHFLgjiqAm6SCc0dd1Qe9LoKEiiC6XUgnpSJBQBSRdCoRyQlqi/QogvwXM2gyWSpZ5u2YtYcU1pHNDhbQZ2J4+5dL3rDVy4akCOpDHhubTGX5E5aHLQqhx73587w33bcGFuYGdr34rkRb/wA0ry+oklYYXlww2Adb1TcDPq8F2mU7nte2qcyYOsLbvDkOeahNs2lfDIyOCJjnAjG1guLi10RpxvfASxuB5bkHjQ9NlXNLLFQvkdhMrYyTh0xAcOhTmDHQvbJcsLSHa6cVGn3RhEUObGDBY3ytwzRXLqgWxzlssl6WlbJE7EfW9L0jzvYaq9kQfXB0Re4gkzuc84bEZMtpxB93SrnbPp3CMODyGANtjIBaNAeY60ooYAXVMTprOu7J7rX4+j/JVGFzTUU7Y8cjqi8kcLQ4gMDXkB56sv8Asq6sHm9XDMwPdiecUgffPCQGW5aLQ6jp5C1wxgxtwAtkc029xVUT6CSR1U0ubh+cJeXNaeAdY5e9BGjDad8LmOkkEtOXvNy7EQW59ZxFG2KhnmhhMu5dMxxu44XBoGdunQe9WUgooo/OKe+GTJpuXXAvk0ctcgtAdDUse0gOHqua4EHPoKDmOke+qdUGNj4WSRMa8SEGxw+rbLV3v0UZBLSwTiVsRklY8tkiJLjdwsCT/eHUuo6lgdK2TAMQtbM2y0uNDbhyURRUzcfzYIeCCCSRY6gDh7kFOy7tkqonxtic14IjY67WgtGhy6USRtkr3l1KyXCG2e63o6rVBBFTgiJtr6kkkk9JOZUY5Y3zysY04mWD3HS9r27D8U0c6Oe+2TLeUte4weoQwAC972tfECNeKuo3Yq10bnExQl24BHrcD3dPetghhEYiDG4AcQb03vftzUhHGAwBrRuz6I+rlb+KBPxecRkTYRY3jsPT/jksm0HyNmeWk3bSyOZb62Wf5dq2lsbpGyFrS9lw1xGYvqk5scha42JF7ZqDmOZTQSvjDbxbuN26bo91yB13/grTEYGUrHOEd3SBwYcmMIcbDoBt2LR5lSCMtEMYYSDYDLLTsUhT07WgYWgYS0C+VjqFRjgggc1z92yOGXCIonGweRexI5n+AWJjWugqWytaHU8LiwDRjsT74eqzbLrOpaOMNh3LQ2UgYQOIBI/JS8zpSWfMxkM9UYRlndBJtQ8E7yCRrWsxGQ2IPRrf4Ln7Ne2qmqyKh+OVrHHCbFmtmjqFl1+xRDWhxcGgOOp52UHDcx0lDSNYyJ5ZSuJ3pyGmY6cv9lshZHPURuhZnGWvkmdrctyb2EX4LXJSU0jGtkgjc1gs0FoNkea0++325j3v18IvyVGj80acUkXUUyjpSRdQMGyClqmgfvT0SATDc0UFHFSwgphouoIk9IQp4f8AuyERcUrpa3zRxyWWjug24qJRf0tCtQO6EgeeqV+hVDvZIlK/ag5hAX5pAoJSKAPYkSUHrUXFAXBTvoojTLgg6oh6rlzTti2pPjq4oAYo7CQjPN2lyuldYpK+KKtfTzXFmsIcGE6kjM2y0GqoumdPhmcMG7wEtLb4r2/3XJdHIyCV7ZakvjpI5G3lcbvOK5tfoC2jasZLLRy+lMYs43ZWvnp0K2Gvp55t1G5xdcgEscASNQCRYlBy56l7qpwikLC7etLTI4uyBsSNGi4y/wB11aHFunlwIJdx10CsdJhmbHu3nECcYGQtzKhUTOY+GNjbmR9iRwABJ/K3vQFGIhG4QxOjbjdcOBBJvmc1zIWzRU9QZw7OF+6IBAaLm4tz0N/BaflDdE79rrHE4YW3wsBtc9FrH3oqa2CXFTmGaRrnYPQFg51r4b35e5ApKVm/Mwa/eOmAJufVw2t1LNs6OWWdhxOdDDBuw18JZbMZG+pGHM6aLa7aUQYHtZK8YcT8LR6AvY3z5g6X0U6qrZTND3klmBzyAL3AF0GFlPMKCnG7uGBwewg6Yr6DhlolDDJDROmbAS6IMLGgEF1iScjnc4nZLc2txMJfHJCQ9rSHgXzPQdEUtfHUyYAx7MTcUZdb028xnlqNbaqo5kNPUxMlZM18hpWiSN4veQkh5A97be9OKnqi2ZsjXXiZvYv7TnEPI9zmkdRXRfXsjqTDIx7BnZ5IsbC5yvfnwRSVzKiQs3b2Ow4wHWzHPI5IMdCyaOo3kzJBEGOnIIuQ59vRAtqLO7wUn0Mc1XIXwHA+qDnHDbEN1x5jF8VbFtJu6ncWukMAkc8tt6NibDrsFYKl73QHdyRBwc9zXC5wjK2XWFBhkp3iseBG4SmUOZIyHRv969gLZEeKqpaaUxlrI5GVEcOZMeFpkFiLn943F7roVe0I4RC/GWRmXDIXNIywuNs+kBFTVyRxse2OQOIad3lfNzRbrzVGKCGciRz4Hlzo3zhjr2xvFsHuz7VCJs0TJ5oWOa4PYYg6Pdh2IYCLcM+HQFrnrXPcxr5H0YDnB7zhPpAAgcRmDf3I380z9mSFse6lzJI9IOwOOXJEW1UYZSxQiKSZkRaZG2vjbn2m4vZUPiGRNC7cuicyOMNzaSeX7tx2LrIUVzqiCeenp4Wue2SOwfJbL1Dx68lZS0zTVid1OIy2FjWAj1CC64HaFt0RxTQ7oS0TuindJCM0DJ5ovkkBlonZQF00gNM1IBAlIDggdSY6UDHBSAyFkh8VMAlAgE2t5KTRzU2tQRt0IVwb1IQUE2/kldHJK6y0lfPpRdRui6AubJfFGhSuqGTcJX6UieuyNCgL3Sv7gkTxSRBdBKRyukVQ+xCV0roHfpWSSnc6ad9xaRjGjPSxPitV8kkGJ9LNduEs+bn3rLk53vcHtKqoqecuiMuBsUUkj2gD0iSXa8sietdLglfgrqYg4Sb5hbIBGAcTSM3Hhmq5opXSmRhaLROawH6x4/AK4phTRgmopmsZHTTNYxsO6IezFlz11VkdHgcyz8mSmQC39ktt8VquhNHKdsjMEOhcSHBxlhxWBcXC2eXrLVVURqWGMva1oY5jbN0BaAtZNhxSvcZK6M1VCXvGRcHOZwyAabm6qpNnupSSySIYWFrLQgHoLjx+C3IN7po5r9lYqp0zpGEOc4kGIYiCCCMWtrHJXU1FJTg4Z2XsA20QGXTbU2WtO6aMR2bGI5GseW71r2yWA9IOJOfSLrSIyKl0uO4wBobyzNz78uxTvki+WSCuop2VO7Eou1jsWHgciLHtVLKYteyIl5jjaA17iLmzgQPgFqvkj3qDPJSFznujnfG57sRsARoBoeoKfmsdqZoJApzdo/ylufarboCCROSEr5J/wQH8Eao0QED1RZHBHuQP8kdiVlLnkigJ+5LrTCAHEKXBKykAgACpAIAUrZohgKTQkBzU2oJAKYACgLXUwQgkhI252QgyE2ukTZA1Ki3Q9Sw0kDpdBPYlwUW6e9USvkle6P3k1QrpdKOA61FQO6RNwkUHVUIlFyjgFEoiRNglwQeKXiindJLijiqgvc6oUefuQgd+KCUckhqetA+CV0gmgCcsykLDRBUeAQTzRdJRKCV80ro4DrS5IHi4qJckdVEn80EwfcmCqwpDVBMJhRCfJESCaiOKBp7kEwjRI6FIoJo43SBzTP8ABA0+pLkolFWDNNQHBT4KCQ0TCgE2nIKi1ozTGuar/eT4FEWA20UhZZ2n0lO55oL734pg9KzgnLNJrjcZnXmg3Mje8XaDZC6EOUbbckIj/9k=" target="_blank" rel="noopener">한국도로공사<span class="lk">↗</span></a><span class="sub"><span class="org"><span class="oi">🏛</span>도로연구소/교통연구실</span><span class="dot">·</span>연구원</span></h3>
+          <h3><span class="bkch">4-5</span><a class="tlink" href="data:image/jpeg;base64,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" target="_blank" rel="noopener">한국도로공사<span class="lk">↗</span></a><span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>도로연구소/교통연구실</span><span class="dot">·</span>연구원</span></h3>
           <div class="concur">⇄ 겸업 · 전문연구요원</div>
           <ul class="details">
             <li><span class="yr">1997</span><span class="tx">운전자 행동·반응 및 생체신호 연구</span></li>
@@ -1596,7 +1599,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2006.07 ~ 2007.02</div>
         <div class="body">
-          <h3><span class="bkch">4-10</span>이지테크<span class="sub"><span class="org"><span class="oi">🏛</span>u-Healthcare 사업</span><span class="dot">·</span>이사</span></h3>
+          <h3><span class="bkch">4-10</span>이지테크<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>u-Healthcare 사업</span><span class="dot">·</span>이사</span></h3>
           
           <ul class="details">
             <li><span class="yr">2006</span><span class="tx">유비쿼터스 헬스케어 기술·사업 개발</span></li>
@@ -1632,7 +1635,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2009.11 ~ 현재</div>
         <div class="body">
-          <h3><span class="bkch">4-13</span>㈜라이프사이언스테크놀로지<span class="sub"><span class="org"><span class="oi">🏛</span>총괄</span><span class="dot">·</span>창업자·대표이사</span></h3>
+          <h3><span class="bkch">4-13</span>㈜라이프사이언스테크놀로지<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>총괄</span><span class="dot">·</span>창업자·대표이사</span></h3>
           
           <ul class="details">
             <li><span class="yr">2009</span><span class="tx">㈜엑스모코어 상호변경 후 경영·기술·R&amp;D·사업화 총괄</span></li>
@@ -1653,7 +1656,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">1997.03.31</div>
         <div class="body">
-          <h3><span class="bkch">5-1</span><a class="tlink" href="https://kosombe.or.kr" target="_blank" rel="noopener">대한의용생체공학회<span class="lk">↗</span></a><span class="sub"><span class="org"><span class="oi">🏛</span>자격</span><span class="dot">·</span>의공학기사자격증<span class="dot">·</span>제 M100313</span></h3>
+          <h3><span class="bkch">5-1</span><a class="tlink" href="https://kosombe.or.kr" target="_blank" rel="noopener">대한의용생체공학회<span class="lk">↗</span></a><span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>자격</span><span class="dot">·</span>의공학기사자격증<span class="dot">·</span>제 M100313</span></h3>
           
           
           
@@ -1663,7 +1666,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2002.05.06 ~ 2002.05.09</div>
         <div class="body">
-          <h3><span class="bkch">5-2</span><a class="tlink" href="https://smbd.co.kr" target="_blank" rel="noopener">중소기업개발원<span class="lk">↗</span></a><span class="sub"><span class="org"><span class="oi">🏛</span>교육</span><span class="dot">·</span>해외시장개척 무역실무과정 수료<span class="dot">·</span>제 02-050022</span></h3>
+          <h3><span class="bkch">5-2</span><a class="tlink" href="https://smbd.co.kr" target="_blank" rel="noopener">중소기업개발원<span class="lk">↗</span></a><span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>교육</span><span class="dot">·</span>해외시장개척 무역실무과정 수료<span class="dot">·</span>제 02-050022</span></h3>
           
           
           
@@ -1673,7 +1676,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2004.01</div>
         <div class="body">
-          <h3><span class="bkch">5-3</span>식품의약품안전청<span class="sub"><span class="org"><span class="oi">🏛</span>자격</span><span class="dot">·</span>의료용구 제조관리자 승인</span></h3>
+          <h3><span class="bkch">5-3</span>식품의약품안전청<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>자격</span><span class="dot">·</span>의료용구 제조관리자 승인</span></h3>
           
           
           
@@ -1683,7 +1686,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2008</div>
         <div class="body">
-          <h3><span class="bkch">5-4</span>경기테크노파크<span class="sub"><span class="org"><span class="oi">🏛</span>교육</span><span class="dot">·</span>기술창업교육·기술고도화 최고위과정</span></h3>
+          <h3><span class="bkch">5-4</span>경기테크노파크<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>교육</span><span class="dot">·</span>기술창업교육·기술고도화 최고위과정</span></h3>
           
           
           
@@ -1693,7 +1696,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2018.09</div>
         <div class="body">
-          <h3><span class="bkch">5-5</span>법무부(위치추적관제센터) 표창<span class="sub"><span class="org"><span class="oi">🏛</span>법무부</span><span class="dot">·</span>수상</span></h3>
+          <h3><span class="bkch">5-5</span>법무부(위치추적관제센터) 표창<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>법무부</span><span class="dot">·</span>수상</span></h3>
           
           
           
@@ -1710,7 +1713,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">1998.08 ~ 1998.12</div>
         <div class="body">
-          <h3><span class="bkch">6-1</span>건국대학교 대학원<span class="sub"><span class="org"><span class="oi">🏛</span>계측이론 · 한 학기</span><span class="dot">·</span>강사</span></h3>
+          <h3><span class="bkch">6-1</span>건국대학교 대학원<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>계측이론 · 한 학기</span><span class="dot">·</span>강사</span></h3>
           
           
           
@@ -1720,7 +1723,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2008.09 ~ 2008.12</div>
         <div class="body">
-          <h3><span class="bkch">6-2</span>전북대학교<span class="sub"><span class="org"><span class="oi">🏛</span>의공학</span><span class="dot">·</span>겸임교수</span></h3>
+          <h3><span class="bkch">6-2</span>전북대학교<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>의공학</span><span class="dot">·</span>겸임교수</span></h3>
           
           <ul class="details">
             <li><span class="yr">2008</span><span class="tx">의공학 교육</span></li>
@@ -1739,7 +1742,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">1997.02</div>
         <div class="body">
-          <h3><span class="bkch">7-1</span>Wavelet 변환을 이용한 청각자극에 의해 유발되는 뇌파의 분석에 관한 연구<span class="sub"><span class="org"><span class="oi">🏛</span>인제대학교 대학원</span><span class="dot">·</span>단독 · 석사학위논문</span></h3>
+          <h3><span class="bkch">7-1</span>Wavelet 변환을 이용한 청각자극에 의해 유발되는 뇌파의 분석에 관한 연구<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>인제대학교 대학원</span><span class="dot">·</span>단독 · 석사학위논문</span></h3>
           
           
           
@@ -1749,7 +1752,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period"></div>
         <div class="body">
-          <h3><span class="bkch">7-2</span>Evaluation of Emotional changes on Wavelet transform of EEG signals evoked by auditory stimulation<span class="sub"><span class="org"><span class="oi">🏛</span>’97 대한음향학회 춘계논문집</span><span class="dot">·</span>논문·학술발표</span></h3>
+          <h3><span class="bkch">7-2</span>Evaluation of Emotional changes on Wavelet transform of EEG signals evoked by auditory stimulation<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>’97 대한음향학회 춘계논문집</span><span class="dot">·</span>논문·학술발표</span></h3>
           
           
           
@@ -1759,7 +1762,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period"></div>
         <div class="body">
-          <h3><span class="bkch">7-3</span>A Study for the Analysis of EEG Variation based on Time-Frequency Mapping<span class="sub"><span class="org"><span class="oi">🏛</span>대한의용생체공학회지 Vol.19 No.1</span><span class="dot">·</span>논문·학술발표</span></h3>
+          <h3><span class="bkch">7-3</span>A Study for the Analysis of EEG Variation based on Time-Frequency Mapping<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>대한의용생체공학회지 Vol.19 No.1</span><span class="dot">·</span>논문·학술발표</span></h3>
           
           
           
@@ -1769,7 +1772,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period"></div>
         <div class="body">
-          <h3><span class="bkch">7-4</span>Development of a Noninvasive/Continuous Blood Pressure Measuring System using Piezoelectric Sensor<span class="sub"><span class="org"><span class="oi">🏛</span>대한전기학회 46-3-33, pp.440~444</span><span class="dot">·</span>논문·학술발표</span></h3>
+          <h3><span class="bkch">7-4</span>Development of a Noninvasive/Continuous Blood Pressure Measuring System using Piezoelectric Sensor<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>대한전기학회 46-3-33, pp.440~444</span><span class="dot">·</span>논문·학술발표</span></h3>
           
           
           
@@ -1779,7 +1782,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period"></div>
         <div class="body">
-          <h3><span class="bkch">7-5</span>The Classification of Visual Stimulus Using Wavelet Transform from EEG Signals<span class="sub"><span class="org"><span class="oi">🏛</span>’98 Annual International Occupational, Ergonomics &amp; Safety</span><span class="dot">·</span>논문·학술발표</span></h3>
+          <h3><span class="bkch">7-5</span>The Classification of Visual Stimulus Using Wavelet Transform from EEG Signals<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>’98 Annual International Occupational, Ergonomics &amp; Safety</span><span class="dot">·</span>논문·학술발표</span></h3>
           
           
           
@@ -1789,7 +1792,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period"></div>
         <div class="body">
-          <h3><span class="bkch">7-6</span>마취에 의한 의식수준의 변화와 내인성 유발전위간의 상관성 분석에 관한 연구<span class="sub"><span class="org"><span class="oi">🏛</span>대한의용생체공학회지 Vol.17 No.2</span><span class="dot">·</span>논문·학술발표</span></h3>
+          <h3><span class="bkch">7-6</span>마취에 의한 의식수준의 변화와 내인성 유발전위간의 상관성 분석에 관한 연구<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>대한의용생체공학회지 Vol.17 No.2</span><span class="dot">·</span>논문·학술발표</span></h3>
           
           
           
@@ -1799,7 +1802,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period"></div>
         <div class="body">
-          <h3><span class="bkch">7-7</span>A Study for the Analysis of EEG Signals evoked by Visual Stimulation using Wavelet Transformation<span class="sub"><span class="org"><span class="oi">🏛</span>대한의용생체공학회지 Vol.19 No.2</span><span class="dot">·</span>논문·학술발표</span></h3>
+          <h3><span class="bkch">7-7</span>A Study for the Analysis of EEG Signals evoked by Visual Stimulation using Wavelet Transformation<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>대한의용생체공학회지 Vol.19 No.2</span><span class="dot">·</span>논문·학술발표</span></h3>
           
           
           
@@ -1809,7 +1812,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period"></div>
         <div class="body">
-          <h3><span class="bkch">7-8</span>u-헬스케어 시스템 구현을 위한 생체신호 측정 단말기 구현<span class="sub"><span class="org"><span class="oi">🏛</span>정보 및 제어 학술대회</span><span class="dot">·</span>논문·학술발표</span></h3>
+          <h3><span class="bkch">7-8</span>u-헬스케어 시스템 구현을 위한 생체신호 측정 단말기 구현<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>정보 및 제어 학술대회</span><span class="dot">·</span>논문·학술발표</span></h3>
           
           
           
@@ -1819,7 +1822,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period"></div>
         <div class="body">
-          <h3><span class="bkch">7-9</span>Wavelet 변환을 이용한 청각자극에 의해 유발되는 뇌파의 분석에 관한 연구<span class="sub"><span class="org"><span class="oi">🏛</span>대한의용생체공학회지 Vol.18 No.2</span><span class="dot">·</span>논문·학술발표</span></h3>
+          <h3><span class="bkch">7-9</span>Wavelet 변환을 이용한 청각자극에 의해 유발되는 뇌파의 분석에 관한 연구<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>대한의용생체공학회지 Vol.18 No.2</span><span class="dot">·</span>논문·학술발표</span></h3>
           
           
           
@@ -1829,7 +1832,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period"></div>
         <div class="body">
-          <h3><span class="bkch">7-10</span>Diazepam 투여 시 진정 정도에 따른 Latency Auditory Evoked Potentials의 P300의 변화<span class="sub"><span class="org"><span class="oi">🏛</span>’97 대한마취과학회 제33권 2호, pp.248</span><span class="dot">·</span>논문·학술발표</span></h3>
+          <h3><span class="bkch">7-10</span>Diazepam 투여 시 진정 정도에 따른 Latency Auditory Evoked Potentials의 P300의 변화<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>’97 대한마취과학회 제33권 2호, pp.248</span><span class="dot">·</span>논문·학술발표</span></h3>
           
           
           
@@ -1839,7 +1842,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period"></div>
         <div class="body">
-          <h3><span class="bkch">7-11</span>The Characteristic of Wavelet in EEG Signals related to Human Visual Sensibility<span class="sub"><span class="org"><span class="oi">🏛</span>The Ergonomics Society of Korea ’97 추계논문집</span><span class="dot">·</span>논문·학술발표</span></h3>
+          <h3><span class="bkch">7-11</span>The Characteristic of Wavelet in EEG Signals related to Human Visual Sensibility<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>The Ergonomics Society of Korea ’97 추계논문집</span><span class="dot">·</span>논문·학술발표</span></h3>
           
           
           
@@ -1849,7 +1852,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period"></div>
         <div class="body">
-          <h3><span class="bkch">7-12</span>Wavelet을 이용한 뇌파에 나타나는 음의 쾌적성 분석<span class="sub"><span class="org"><span class="oi">🏛</span>한국음향학회논문집 제15권 제1(s)호</span><span class="dot">·</span>논문·학술발표</span></h3>
+          <h3><span class="bkch">7-12</span>Wavelet을 이용한 뇌파에 나타나는 음의 쾌적성 분석<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>한국음향학회논문집 제15권 제1(s)호</span><span class="dot">·</span>논문·학술발표</span></h3>
           
           
           
@@ -1859,7 +1862,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period"></div>
         <div class="body">
-          <h3><span class="bkch">7-13</span>Time Series Analysis on the Blood Flow in the Peripheral Blood Vessel of Rabbit in Proportion to the Glucose Variation<span class="sub"><span class="org"><span class="oi">🏛</span>18th Annual International Conference IEEE EMBS · SCI급</span><span class="dot">·</span>논문·학술발표</span></h3>
+          <h3><span class="bkch">7-13</span>Time Series Analysis on the Blood Flow in the Peripheral Blood Vessel of Rabbit in Proportion to the Glucose Variation<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>18th Annual International Conference IEEE EMBS · SCI급</span><span class="dot">·</span>논문·학술발표</span></h3>
           
           
           
@@ -1880,7 +1883,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2013.09.05</div>
         <div class="body">
-          <h3><span class="bkch">8-1</span>피검자의 트래머데이터 측정장치<span class="sub"><span class="org"><span class="oi">🏛</span>KR 10-1307250</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-1</span>피검자의 트래머데이터 측정장치<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 10-1307250</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -1890,7 +1893,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2020.04.06</div>
         <div class="body">
-          <h3><span class="bkch">8-12</span>전자 감독 장치 및 시스템<span class="sub"><span class="org"><span class="oi">🏛</span>KR 10-2099965</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-12</span>전자 감독 장치 및 시스템<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 10-2099965</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -1900,7 +1903,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2020.04.06</div>
         <div class="body">
-          <h3><span class="bkch">8-13</span>위치 감시 시스템 및 방법<span class="sub"><span class="org"><span class="oi">🏛</span>KR 10-2099968</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-13</span>위치 감시 시스템 및 방법<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 10-2099968</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -1910,7 +1913,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2020.04.16</div>
         <div class="body">
-          <h3><span class="bkch">8-14</span>위치 감시 시스템 및 방법 (2)<span class="sub"><span class="org"><span class="oi">🏛</span>KR 10-2103413</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-14</span>위치 감시 시스템 및 방법 (2)<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 10-2103413</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -1920,7 +1923,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2022.06.22</div>
         <div class="body">
-          <h3><span class="bkch">8-24</span>패치형 전극을 이용한 수면상태 판단방법<span class="sub"><span class="org"><span class="oi">🏛</span>KR 10-2413424</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-24</span>패치형 전극을 이용한 수면상태 판단방법<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 10-2413424</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -1930,7 +1933,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2023.02.20</div>
         <div class="body">
-          <h3><span class="bkch">8-25</span>생체정보 측정 장치 및 방법<span class="sub"><span class="org"><span class="oi">🏛</span>KR 10-2503149</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-25</span>생체정보 측정 장치 및 방법<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 10-2503149</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -1940,7 +1943,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2023.04.17</div>
         <div class="body">
-          <h3><span class="bkch">8-26</span>생체신호를 이용한 음주 판별 장치 및 방법<span class="sub"><span class="org"><span class="oi">🏛</span>KR 10-2523994</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-26</span>생체신호를 이용한 음주 판별 장치 및 방법<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 10-2523994</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -1950,7 +1953,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2023.05.16</div>
         <div class="body">
-          <h3><span class="bkch">8-27</span>전자 감독 시스템 및 그 제어방법<span class="sub"><span class="org"><span class="oi">🏛</span>US 11651674 · PCT/KR2018/011227</span><span class="dot">·</span>해외등록 (US)</span></h3>
+          <h3><span class="bkch">8-27</span>전자 감독 시스템 및 그 제어방법<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>US 11651674 · PCT/KR2018/011227</span><span class="dot">·</span>해외등록 (US)</span></h3>
           
           
           
@@ -1960,7 +1963,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2023.08.16</div>
         <div class="body">
-          <h3><span class="bkch">8-28</span>휴대용 복합 생체신호측정장치<span class="sub"><span class="org"><span class="oi">🏛</span>KR 10-2568715</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-28</span>휴대용 복합 생체신호측정장치<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 10-2568715</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -1970,7 +1973,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2023.11.01</div>
         <div class="body">
-          <h3><span class="bkch">8-29</span>심전도신호를 이용한 개인정보의 암호화 및 복호화 방법<span class="sub"><span class="org"><span class="oi">🏛</span>KR 10-2596904</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-29</span>심전도신호를 이용한 개인정보의 암호화 및 복호화 방법<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 10-2596904</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -1980,7 +1983,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2023.12.11</div>
         <div class="body">
-          <h3><span class="bkch">8-30</span>생체 신호를 이용한 개인 인증 장치 및 방법<span class="sub"><span class="org"><span class="oi">🏛</span>KR 10-2614078</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-30</span>생체 신호를 이용한 개인 인증 장치 및 방법<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 10-2614078</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -1990,7 +1993,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2024.01.04</div>
         <div class="body">
-          <h3><span class="bkch">8-31</span>생체 인증 장치 및 방법<span class="sub"><span class="org"><span class="oi">🏛</span>KR 10-2622828</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-31</span>생체 인증 장치 및 방법<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 10-2622828</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -2005,7 +2008,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2013.09.05</div>
         <div class="body">
-          <h3><span class="bkch">8-2</span>사용자의 생체정보 분석을 통한 감정상태 분석장치 및 방법<span class="sub"><span class="org"><span class="oi">🏛</span>KR 10-1307248</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-2</span>사용자의 생체정보 분석을 통한 감정상태 분석장치 및 방법<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 10-1307248</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -2015,7 +2018,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2013.12.13</div>
         <div class="body">
-          <h3><span class="bkch">8-3</span>피검자의 운동장애 진단을 위한 생체역학적 파라미터 추출장치<span class="sub"><span class="org"><span class="oi">🏛</span>KR 10-1343506</span><span class="dot">·</span>등록 후 소멸</span></h3>
+          <h3><span class="bkch">8-3</span>피검자의 운동장애 진단을 위한 생체역학적 파라미터 추출장치<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 10-1343506</span><span class="dot">·</span>등록 후 소멸</span></h3>
           
           
           
@@ -2025,7 +2028,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2014.01.23</div>
         <div class="body">
-          <h3><span class="bkch">8-4</span>보행보조기 사용자의 생체신호 보정 획득방법<span class="sub"><span class="org"><span class="oi">🏛</span>KR 10-1357098</span><span class="dot">·</span>등록 후 소멸</span></h3>
+          <h3><span class="bkch">8-4</span>보행보조기 사용자의 생체신호 보정 획득방법<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 10-1357098</span><span class="dot">·</span>등록 후 소멸</span></h3>
           
           
           
@@ -2035,7 +2038,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2014.01.24</div>
         <div class="body">
-          <h3><span class="bkch">8-5</span>자전거 운전자의 생체정보 획득 및 모니터링 방법<span class="sub"><span class="org"><span class="oi">🏛</span>KR 10-1357824</span><span class="dot">·</span>등록 후 소멸</span></h3>
+          <h3><span class="bkch">8-5</span>자전거 운전자의 생체정보 획득 및 모니터링 방법<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 10-1357824</span><span class="dot">·</span>등록 후 소멸</span></h3>
           
           
           
@@ -2045,7 +2048,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2014.02.04</div>
         <div class="body">
-          <h3><span class="bkch">8-6</span>생체정보 획득을 통한 운동관리 줄넘기 및 운동관리방법<span class="sub"><span class="org"><span class="oi">🏛</span>KR 10-1361117</span><span class="dot">·</span>등록 후 소멸</span></h3>
+          <h3><span class="bkch">8-6</span>생체정보 획득을 통한 운동관리 줄넘기 및 운동관리방법<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 10-1361117</span><span class="dot">·</span>등록 후 소멸</span></h3>
           
           
           
@@ -2055,7 +2058,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2014.09.30</div>
         <div class="body">
-          <h3><span class="bkch">8-7</span>무구속 근전도 신호를 이용한 재활상태 분석방법<span class="sub"><span class="org"><span class="oi">🏛</span>KR 10-1448106</span><span class="dot">·</span>등록 후 소멸</span></h3>
+          <h3><span class="bkch">8-7</span>무구속 근전도 신호를 이용한 재활상태 분석방법<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 10-1448106</span><span class="dot">·</span>등록 후 소멸</span></h3>
           
           
           
@@ -2065,7 +2068,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2014.12.02</div>
         <div class="body">
-          <h3><span class="bkch">8-8</span>룩업테이블을 이용한 RRI 획득방법<span class="sub"><span class="org"><span class="oi">🏛</span>KR 10-1470439</span><span class="dot">·</span>등록 후 소멸</span></h3>
+          <h3><span class="bkch">8-8</span>룩업테이블을 이용한 RRI 획득방법<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 10-1470439</span><span class="dot">·</span>등록 후 소멸</span></h3>
           
           
           
@@ -2075,7 +2078,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2018.10.12</div>
         <div class="body">
-          <h3><span class="bkch">8-9</span>생체신호 측정기 (디자인)<span class="sub"><span class="org"><span class="oi">🏛</span>KR 30-0977189</span><span class="dot">·</span>등록 후 소멸</span></h3>
+          <h3><span class="bkch">8-9</span>생체신호 측정기 (디자인)<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 30-0977189</span><span class="dot">·</span>등록 후 소멸</span></h3>
           
           
           
@@ -2085,7 +2088,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2018.11.30</div>
         <div class="body">
-          <h3><span class="bkch">8-10</span>생체신호 측정용 센서전극 (디자인)<span class="sub"><span class="org"><span class="oi">🏛</span>KR 30-0983762</span><span class="dot">·</span>등록 후 소멸</span></h3>
+          <h3><span class="bkch">8-10</span>생체신호 측정용 센서전극 (디자인)<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 30-0983762</span><span class="dot">·</span>등록 후 소멸</span></h3>
           
           
           
@@ -2100,7 +2103,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2019.04.03</div>
         <div class="body">
-          <h3><span class="bkch">8-11</span>전자발찌<span class="sub"><span class="org"><span class="oi">🏛</span>KR 30-1001825</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-11</span>전자발찌<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 30-1001825</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -2110,7 +2113,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2020.06.18</div>
         <div class="body">
-          <h3><span class="bkch">8-15</span>위치추적용 단말기<span class="sub"><span class="org"><span class="oi">🏛</span>KR 30-1064003</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-15</span>위치추적용 단말기<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 30-1064003</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -2120,7 +2123,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2020.06.18</div>
         <div class="body">
-          <h3><span class="bkch">8-16</span>위치추적용 재택장치<span class="sub"><span class="org"><span class="oi">🏛</span>KR 30-1064005</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-16</span>위치추적용 재택장치<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 30-1064005</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -2130,7 +2133,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2020.06.18</div>
         <div class="body">
-          <h3><span class="bkch">8-17</span>위치추적장치용 배터리팩<span class="sub"><span class="org"><span class="oi">🏛</span>KR 30-1064007</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-17</span>위치추적장치용 배터리팩<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 30-1064007</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -2140,7 +2143,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2020.06.18</div>
         <div class="body">
-          <h3><span class="bkch">8-18</span>외출감시용 재택장치<span class="sub"><span class="org"><span class="oi">🏛</span>KR 30-1064008</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-18</span>외출감시용 재택장치<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 30-1064008</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -2150,7 +2153,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2020.06.18</div>
         <div class="body">
-          <h3><span class="bkch">8-19</span>외출감시장치용 배터리팩<span class="sub"><span class="org"><span class="oi">🏛</span>KR 30-1064009</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-19</span>외출감시장치용 배터리팩<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 30-1064009</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -2160,7 +2163,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2020.06.18</div>
         <div class="body">
-          <h3><span class="bkch">8-20</span>외출감시장치용 보조배터리<span class="sub"><span class="org"><span class="oi">🏛</span>KR 30-1064010</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-20</span>외출감시장치용 보조배터리<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 30-1064010</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -2170,7 +2173,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2020.08.12</div>
         <div class="body">
-          <h3><span class="bkch">8-21</span>외출감시용 단말기<span class="sub"><span class="org"><span class="oi">🏛</span>KR 30-1070981</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-21</span>외출감시용 단말기<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 30-1070981</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -2180,7 +2183,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2020.10.20</div>
         <div class="body">
-          <h3><span class="bkch">8-22</span>전자감독장치용 발찌 (EU)<span class="sub"><span class="org"><span class="oi">🏛</span>EP 008206734-0001</span><span class="dot">·</span>해외등록</span></h3>
+          <h3><span class="bkch">8-22</span>전자감독장치용 발찌 (EU)<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>EP 008206734-0001</span><span class="dot">·</span>해외등록</span></h3>
           
           
           
@@ -2190,7 +2193,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2022.01.28</div>
         <div class="body">
-          <h3><span class="bkch">8-23</span>전자감독장치용 발찌<span class="sub"><span class="org"><span class="oi">🏛</span>KR 30-1149548</span><span class="dot">·</span>등록</span></h3>
+          <h3><span class="bkch">8-23</span>전자감독장치용 발찌<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KR 30-1149548</span><span class="dot">·</span>등록</span></h3>
           
           
           
@@ -2200,7 +2203,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2024.03.26</div>
         <div class="body">
-          <h3><span class="bkch">8-32</span>전자감독장치용 발찌 (US)<span class="sub"><span class="org"><span class="oi">🏛</span>US D1,019,638 S</span><span class="dot">·</span>해외등록</span></h3>
+          <h3><span class="bkch">8-32</span>전자감독장치용 발찌 (US)<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>US D1,019,638 S</span><span class="dot">·</span>해외등록</span></h3>
           
           
           
@@ -2222,7 +2225,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">1995.05 ~ 2010.06</div>
         <div class="body">
-          <h3><span class="bkch">9-1</span><a class="tlink" href="https://www.kosombe.or.kr" target="_blank" rel="noopener">대한의용생체공학회<span class="lk">↗</span></a><span class="sub"><span class="org"><span class="oi">🏛</span>학회</span><span class="dot">·</span>회원</span></h3>
+          <h3><span class="bkch">9-1</span><a class="tlink" href="https://www.kosombe.or.kr" target="_blank" rel="noopener">대한의용생체공학회<span class="lk">↗</span></a><span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>학회</span><span class="dot">·</span>회원</span></h3>
           
           
           
@@ -2235,7 +2238,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">1997.03 ~ 2010.06</div>
         <div class="body">
-          <h3><span class="bkch">9-2</span><a class="tlink" href="https://www.kiee.or.kr" target="_blank" rel="noopener">대한전기학회<span class="lk">↗</span></a><span class="sub"><span class="org"><span class="oi">🏛</span>학회</span><span class="dot">·</span>회원</span></h3>
+          <h3><span class="bkch">9-2</span><a class="tlink" href="https://www.kiee.or.kr" target="_blank" rel="noopener">대한전기학회<span class="lk">↗</span></a><span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>학회</span><span class="dot">·</span>회원</span></h3>
           
           
           
@@ -2245,7 +2248,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">1997.03 ~ 2010.06</div>
         <div class="body">
-          <h3><span class="bkch">9-3</span><a class="tlink" href="https://esk.or.kr" target="_blank" rel="noopener">대한인간공학회<span class="lk">↗</span></a><span class="sub"><span class="org"><span class="oi">🏛</span>학회</span><span class="dot">·</span>회원</span></h3>
+          <h3><span class="bkch">9-3</span><a class="tlink" href="https://esk.or.kr" target="_blank" rel="noopener">대한인간공학회<span class="lk">↗</span></a><span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>학회</span><span class="dot">·</span>회원</span></h3>
           
           
           
@@ -2255,7 +2258,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">1997.06 ~ 2010.06</div>
         <div class="body">
-          <h3><span class="bkch">9-4</span><a class="tlink" href="https://www.koses.or.kr" target="_blank" rel="noopener">한국감성과학회<span class="lk">↗</span></a><span class="sub"><span class="org"><span class="oi">🏛</span>학회</span><span class="dot">·</span>회원</span></h3>
+          <h3><span class="bkch">9-4</span><a class="tlink" href="https://www.koses.or.kr" target="_blank" rel="noopener">한국감성과학회<span class="lk">↗</span></a><span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>학회</span><span class="dot">·</span>회원</span></h3>
           
           
           
@@ -2265,7 +2268,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">1998.02 ~ 2010.06</div>
         <div class="body">
-          <h3><span class="bkch">9-5</span><a class="tlink" href="https://www.ksbns.org" target="_blank" rel="noopener">한국뇌신경과학회<span class="lk">↗</span></a><span class="sub"><span class="org"><span class="oi">🏛</span>학회</span><span class="dot">·</span>회원</span></h3>
+          <h3><span class="bkch">9-5</span><a class="tlink" href="https://www.ksbns.org" target="_blank" rel="noopener">한국뇌신경과학회<span class="lk">↗</span></a><span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>학회</span><span class="dot">·</span>회원</span></h3>
           
           
           
@@ -2280,7 +2283,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2007.08 ~ 현재</div>
         <div class="body">
-          <h3><span class="bkch">9-6</span>과제 기획위원<span class="sub"><span class="org"><span class="oi">🏛</span>산업부/과기부/복지부/중기부</span><span class="dot">·</span>기획</span></h3>
+          <h3><span class="bkch">9-6</span>과제 기획위원<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>산업부/과기부/복지부/중기부</span><span class="dot">·</span>기획</span></h3>
           
           
           
@@ -2290,7 +2293,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2010.01 ~ 2015.06</div>
         <div class="body">
-          <h3><span class="bkch">9-7</span>한국산업기술평가관리원(KEIT) 평가위원<span class="sub"><span class="org"><span class="oi">🏛</span>KEIT</span><span class="dot">·</span>평가·심의 위원</span></h3>
+          <h3><span class="bkch">9-7</span>한국산업기술평가관리원(KEIT) 평가위원<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>KEIT</span><span class="dot">·</span>평가·심의 위원</span></h3>
           
           <ul class="details">
             <li><span class="yr">2010</span><span class="tx">평가위원회 28건, 전문위원회 8건, 심의·승인 13건 등 총 55건 참여</span></li>
@@ -2308,7 +2311,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2021.01.08 ~ 2021.01.11</div>
         <div class="body">
-          <h3><span class="bkch">9-8</span><a class="tlink" href="http://www.ces.org" target="_blank" rel="noopener">전시 1 - CES2021<span class="lk">↗</span></a><span class="sub"><span class="org"><span class="oi">🏛</span>Las Vegas Convention Hall</span><span class="dot">·</span>의사결정권자</span></h3>
+          <h3><span class="bkch">9-8</span><a class="tlink" href="http://www.ces.org" target="_blank" rel="noopener">전시 1 - CES2021<span class="lk">↗</span></a><span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>Las Vegas Convention Hall</span><span class="dot">·</span>의사결정권자</span></h3>
           
           
           
@@ -2330,7 +2333,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2026.01 ~ 2026.03</div>
         <div class="body">
-          <h3><span class="bkch">10-1</span>Genspark<span class="sub"><span class="org"><span class="oi">🏛</span>TF26-00</span><span class="dot">·</span>자료조사</span></h3>
+          <h3><span class="bkch">10-1</span>Genspark<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>TF26-00</span><span class="dot">·</span>자료조사</span></h3>
           
           
           
@@ -2340,7 +2343,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">2026.01.09 ~ 2026.01.12</div>
         <div class="body">
-          <h3><span class="bkch">10-2</span>CES 2026<span class="sub"><span class="org"><span class="oi">🏛</span>TF26-01</span><span class="dot">·</span>전시참관</span></h3>
+          <h3><span class="bkch">10-2</span>CES 2026<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>TF26-01</span><span class="dot">·</span>전시참관</span></h3>
           
           
           
@@ -2358,7 +2361,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period">1997.02 ~</div>
         <div class="body">
-          <h3><span class="bkch">11-1</span>세미나 자료<span class="sub"><span class="org"><span class="oi">🏛</span>논문</span><span class="dot">·</span>작성</span></h3>
+          <h3><span class="bkch">11-1</span>세미나 자료<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>논문</span><span class="dot">·</span>작성</span></h3>
           
           
           
@@ -2368,7 +2371,7 @@ body.book .brand small{color:#c3ab84}
       <article class="entry">
         <div class="period"></div>
         <div class="body">
-          <h3><span class="bkch">11-2</span>제품 정보<span class="sub"><span class="org"><span class="oi">🏛</span>개인정보</span><span class="dot">·</span>개인정보</span></h3>
+          <h3><span class="bkch">11-2</span>제품 정보<span class="sub"><span class="org"><i class="oi" aria-hidden="true"></i>개인정보</span><span class="dot">·</span>개인정보</span></h3>
           
           <ul class="details">
             <li><span class="yr">1997.03 ~</span><span class="tx">뇌파측정기 for Biopac</span></li>
